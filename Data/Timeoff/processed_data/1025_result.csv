@@ -1,0 +1,769 @@
+test_name,total_move_distance,total_scroll_distance,total_click_count,total_input_count,test_result,Commit Number
+Admin tries to add user with email used for other one | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Admin tries to add user with email used for other one | Create new non-admin user,646.4093130517226,452.0,1,82,failed,1025
+Auto approvals | Create second user B,646.4093130517226,452.0,1,82,failed,1025
+Auto approvals | Ensure that it is gone without need to be approved,0.0,0.0,0,0,passed,1025
+Auto approvals | Ensure that new leave went straight to Approved status,0.0,0.0,0,0,failed,1025
+Auto approvals | Ensure that there is no pending leave requests,0.0,0.0,0,0,passed,1025
+Auto approvals | Ensure that user B does not have any leaves,0.0,0.0,0,0,passed,1025
+Auto approvals | Ensure there were two emails regarding auto-approved leaves,0.0,0.0,0,0,failed,1025
+Auto approvals | Login as admin user A,1518.063680283221,0.0,2,28,passed,1025
+Auto approvals | Login as regular user B,1518.063680283221,0.0,2,15,failed,1025
+Auto approvals | Logout from admin user,1043.7671912525857,0.0,2,0,passed,1025
+Auto approvals | Logout from user B,0.0,0.0,0,0,failed,1025
+Auto approvals | Obtain information about admin user A,0.0,0.0,0,0,passed,1025
+Auto approvals | Obtain information about user B,0.0,0.0,0,0,failed,1025
+Auto approvals | Open Book leave popup window,0.0,0.0,0,0,failed,1025
+Auto approvals | Open details page for user B,0.0,0.0,0,0,passed,1025
+Auto approvals | Open email audit page,0.0,0.0,0,0,passed,1025
+Auto approvals | Open requests page,0.0,0.0,0,0,passed,1025
+Auto approvals | Open user B absences section,0.0,0.0,0,0,passed,1025
+Auto approvals | Register new company,2495.2942593076914,108.0,4,93,passed,1025
+Auto approvals | Revoke request,0.0,0.0,0,0,failed,1025
+Auto approvals | Submit new leave requesti from user B,0.0,0.0,0,0,failed,1025
+Auto approvals | Update settings to make all its leave requests auto approved,0.0,0.0,0,0,failed,1025
+Basic audit for user changes | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Basic audit for user changes | Create second user,646.4093130517226,452.0,1,82,failed,1025
+Basic audit for user changes | Enable API integration and capture the token value,726.1678309140939,0.0,2,0,passed,1025
+Basic audit for user changes | Fetch the Audit feed from integration API,0.0,0.0,0,0,failed,1025
+Basic audit for user changes | Navigate to current user details and update its Name and Surname,1091.3739047640822,629.0,1,28,failed,1025
+Basic audit for user changes | Remove second account,0.0,0.0,0,0,failed,1025
+Basic leave request | And make sure that it is calendar indeed,0.0,0.0,0,0,failed,1025
+Basic leave request | Approve newly added leave request,0.0,0.0,0,0,failed,1025
+Basic leave request | Check that all days are marked as pended,0.0,0.0,0,0,failed,1025
+Basic leave request | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Basic leave request | Create new non-admin user,646.4093130517226,452.0,1,82,failed,1025
+Basic leave request | Following code is to ensure that non admin user can request leave only for herself,0.0,0.0,0,0,failed,1025
+Basic leave request | Login as admin user,1518.063680283221,0.0,2,28,passed,1025
+Basic leave request | Login as non-admin user,1518.063680283221,0.0,2,15,failed,1025
+Basic leave request | Logout from admin account,1043.7671912525857,0.0,2,0,passed,1025
+Basic leave request | Logout from admin acount,1043.7671912525857,0.0,2,0,passed,1025
+Basic leave request | Logout from non-admin acount,0.0,0.0,0,0,failed,1025
+Basic leave request | Make sure newly created request is shown for approval,0.0,0.0,0,0,failed,1025
+Basic leave request | Make sure that requests have approver been populated,0.0,0.0,0,0,failed,1025
+Basic leave request | Open Book leave popup window,0.0,0.0,0,0,failed,1025
+Basic leave request | Open calendar page,0.0,0.0,0,0,passed,1025
+Basic leave request | Open calendar page (in full year mode),0.0,0.0,0,0,passed,1025
+Basic leave request | Open calendar page (short version),0.0,0.0,0,0,passed,1025
+Basic leave request | Open requests page,0.0,0.0,0,0,passed,1025
+Basic leave request | Submit new leave request,0.0,0.0,0,0,failed,1025
+Basic user specific schedule | ... and ensure irequest from user B deducts 4 days from allowance,0.0,0.0,0,0,failed,1025
+Basic user specific schedule | ... and ensure newly created request deducts 5 days from allowance,0.0,0.0,0,0,failed,1025
+"Basic user specific schedule | ... ensure its calendar page shows WED,Sat, and Sun as non-working days",0.0,0.0,0,0,failed,1025
+Basic user specific schedule | ... ensure that only Sat and Sun are non-working days,0.0,0.0,0,0,passed,1025
+Basic user specific schedule | Create second user B,646.4093130517226,452.0,1,82,failed,1025
+"Basic user specific schedule | Ensure Company wide schedule is still default: Sat, Sun are non-working",0.0,0.0,0,0,failed,1025
+Basic user specific schedule | Ensure it has default configuration,0.0,0.0,0,0,failed,1025
+Basic user specific schedule | Ensure that User B details shows new schedule,0.0,0.0,0,0,failed,1025
+Basic user specific schedule | Ensure that user A started at the begining of current year,1091.3739047640822,629.0,1,10,failed,1025
+Basic user specific schedule | Login as user A (admin),1518.063680283221,0.0,2,28,passed,1025
+Basic user specific schedule | Login as user B,1518.063680283221,0.0,2,15,failed,1025
+Basic user specific schedule | Logout from user A (admin),1043.7671912525857,0.0,2,0,passed,1025
+Basic user specific schedule | Logout from user B,0.0,0.0,0,0,failed,1025
+"Basic user specific schedule | Make sure team view shows user B also has Sat, Sun as non-working days",0.0,0.0,0,0,failed,1025
+"Basic user specific schedule | Make sure team view shows user B has Wed, Sat, Sun as non-working days",0.0,0.0,0,0,failed,1025
+Basic user specific schedule | Make sure that team view shows user A has Sat and Sun as non-working days,0.0,0.0,0,0,failed,1025
+Basic user specific schedule | Obtain information about user A,0.0,0.0,0,0,passed,1025
+Basic user specific schedule | Obtain information about user B,0.0,0.0,0,0,failed,1025
+Basic user specific schedule | Open Book leave popup window,503.1073444107132,0.0,1,0,passed,1025
+Basic user specific schedule | Open Calendar page,0.0,0.0,0,0,passed,1025
+Basic user specific schedule | Open Team view page,0.0,0.0,0,0,passed,1025
+Basic user specific schedule | Open company details page,0.0,0.0,0,0,passed,1025
+Basic user specific schedule | Open requests page,0.0,0.0,0,0,passed,1025
+Basic user specific schedule | Open user B schedule,0.0,0.0,0,0,failed,1025
+Basic user specific schedule | Open user B schedule and ensure wording indicates company wide one is used,0.0,0.0,0,0,failed,1025
+Basic user specific schedule | Register new company,2495.2942593076914,108.0,4,93,passed,1025
+Basic user specific schedule | Revoke user specific schedule and replace it with company wide one,0.0,0.0,0,0,failed,1025
+Basic user specific schedule | Submit new leave requesti from user A for 7 calendar days,825.3629504648243,0.0,1,20,failed,1025
+Basic user specific schedule | Update user B to have Wed to be non-working day,0.0,0.0,0,0,failed,1025
+Book the very last day of year to be a holiday | Ensure user starts at the very beginning of current year,1091.3739047640822,629.0,1,10,failed,1025
+Book the very last day of year to be a holiday | Open calendar page and ensure that the very last day of the year is marked as pending,0.0,0.0,0,0,failed,1025
+Book the very last day of year to be a holiday | Place new holiday to be the very last day of the year,501.28834017958167,29.0,1,20,failed,1025
+Book the very last day of year to be a holiday | Register new company,2495.2942593076914,108.0,4,93,passed,1025
+Bulk import of users | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Bulk import of users | Create test .CSV file for the test,0.0,0.0,0,0,passed,1025
+Bulk import of users | Ensure that imported users are in the system,0.0,0.0,0,0,failed,1025
+Bulk import of users | Logout from admin account,1043.7671912525857,0.0,2,0,passed,1025
+Bulk import of users | Navigate to bulk upload page,0.0,0.0,0,0,passed,1025
+"Bulk import of users | Now try to login as newly added employee using ""undefined"" as password..",1518.063680283221,0.0,2,42,passed,1025
+Bulk import of users | Upload user import file,590.9602355488904,0.0,1,0,failed,1025
+CRUD for bank holidays | Add new bank holiday to be in the beginning of the list,1070.9200151778982,0.0,2,20,passed,1025
+CRUD for bank holidays | Add new bank holiday to be in the end of the list,1225.2518849258095,0.0,2,14,passed,1025
+CRUD for bank holidays | Check if there are default bank holidays,0.0,0.0,0,0,failed,1025
+"CRUD for bank holidays | Check that after some crappy input was provided into the date, it falls back to the current date",0.0,0.0,0,0,failed,1025
+CRUD for bank holidays | Check that the order of all three holidays is based on dates rather than names,0.0,0.0,0,0,failed,1025
+CRUD for bank holidays | Go back to 2015,0.0,0.0,0,0,passed,1025
+CRUD for bank holidays | Go back to current year page of bank holidays,0.0,0.0,0,0,passed,1025
+CRUD for bank holidays | Open page with bank holidays,0.0,0.0,0,0,passed,1025
+CRUD for bank holidays | Performing registration process,2495.2942593076914,108.0,4,93,passed,1025
+CRUD for bank holidays | Remove Spring bank holiday,1051.0685039520497,0.0,1,0,failed,1025
+CRUD for bank holidays | Rename Christmas to have proper name,1078.815090736128,0.0,1,9,passed,1025
+CRUD for bank holidays | Try to submit form with incorrect date,994.7346379814065,0.0,1,4,passed,1025
+CRUD for bank holidays | Update Early spring holiday to be 4th of May,0.0,0.0,0,0,failed,1025
+CRUD for department secondary supervisers | ... and ensure that user A is its manager,0.0,0.0,0,0,failed,1025
+CRUD for department secondary supervisers | ... save edit page URL,0.0,0.0,0,0,passed,1025
+"CRUD for department secondary supervisers | Click on ""Remove"" button next to user C and observe that it disappeares from ""secondary supervisors"" section after page is reloaded",0.0,0.0,0,0,failed,1025
+CRUD for department secondary supervisers | Create second user B,646.4093130517226,452.0,1,82,failed,1025
+CRUD for department secondary supervisers | Create second user C,646.4093130517226,452.0,1,82,failed,1025
+"CRUD for department secondary supervisers | Ensure that ""secondary supervisors"" section is empty",0.0,0.0,0,0,passed,1025
+CRUD for department secondary supervisers | Go to any department details page,0.0,0.0,0,0,passed,1025
+CRUD for department secondary supervisers | Go to departments details page,0.0,0.0,0,0,failed,1025
+"CRUD for department secondary supervisers | Invoke ""Add secondary supervisers"" pop-up window",0.0,0.0,0,0,failed,1025
+"CRUD for department secondary supervisers | Observe that ""secondary spervisors"" section now contains only user C",0.0,0.0,0,0,failed,1025
+CRUD for department secondary supervisers | Observe that user B appeares on the list of secondary supervisers,0.0,0.0,0,0,failed,1025
+CRUD for department secondary supervisers | Obtain information about user A,0.0,0.0,0,0,passed,1025
+CRUD for department secondary supervisers | Obtain information about user B,0.0,0.0,0,0,failed,1025
+CRUD for department secondary supervisers | Obtain information about user C,0.0,0.0,0,0,failed,1025
+"CRUD for department secondary supervisers | Open ""add supervisors"" pop up again and ensure that user B has tick next to it and user C does not have it",0.0,0.0,0,0,failed,1025
+CRUD for department secondary supervisers | Register new account,2495.2942593076914,108.0,4,93,passed,1025
+CRUD for department secondary supervisers | Tick user C and un-tick user B and save changes,0.0,0.0,0,0,failed,1025
+"CRUD for department secondary supervisers | click ""add supervisers"" button and ensure that popup witndow has only user B and C in the list",0.0,0.0,0,0,failed,1025
+CRUD for department secondary supervisers | tick user B and save changes,0.0,0.0,0,0,failed,1025
+CRUD for leave types | Add AAA and ZZZ leave types,0.0,0.0,0,0,failed,1025
+CRUD for leave types | Add new leave type,1640.304125182641,823.0,3,5,passed,1025
+CRUD for leave types | And make sure only two old leave types are left,0.0,0.0,0,0,failed,1025
+"CRUD for leave types | And rename newly added leave type to start with ""M""",714.5362132180566,970.0,1,2,passed,1025
+CRUD for leave types | Change Sick leave type to be non-default colour,887.3689108531759,733.0,3,0,passed,1025
+CRUD for leave types | Check if there are default leave types,0.0,0.0,0,0,failed,1025
+CRUD for leave types | Check that it is possible to update Limits,669.3056103156465,970.0,1,2,passed,1025
+"CRUD for leave types | Check that new leave type was added at the beginning of the list as it starts with ""A""",0.0,0.0,0,0,failed,1025
+"CRUD for leave types | Check that updating ""use allowance flag"" works",864.3747950213987,823.0,2,0,passed,1025
+"CRUD for leave types | Double check that ""use allowance"" tick boxes were updated correctly",0.0,0.0,0,0,failed,1025
+CRUD for leave types | Ensure AAA is a first and ZZZ is a last in a list on book holiday modal,0.0,0.0,0,0,failed,1025
+CRUD for leave types | Ensure AAA is first and ZZZ is last in the list (general settings page),0.0,0.0,0,0,failed,1025
+CRUD for leave types | Ensure ZZZ is a first and AAA is a second in a list on book holiday modal,0.0,0.0,0,0,failed,1025
+CRUD for leave types | Ensure that color class for Sick days was updated to be non-default,0.0,0.0,0,0,failed,1025
+CRUD for leave types | Make sure default colours are set for leave types,0.0,0.0,0,0,failed,1025
+CRUD for leave types | Make sure that Limit cannot be negative,669.3056103156465,970.0,1,2,failed,1025
+"CRUD for leave types | Make sure that both leave types have ""use allowance"" tick boxes set",0.0,0.0,0,0,failed,1025
+CRUD for leave types | Make sure that updated new leave type was moved into second position,0.0,0.0,0,0,failed,1025
+CRUD for leave types | Mark ZZZ as one to be default one,0.0,0.0,0,0,failed,1025
+CRUD for leave types | Open page with leave types,0.0,0.0,0,0,passed,1025
+CRUD for leave types | Performing registration process,2495.2942593076914,108.0,4,93,passed,1025
+CRUD for leave types | Remove empty newly added leave type,801.5890468313548,740.0,1,0,failed,1025
+CRUD for users | ... and try to remove account,0.0,0.0,0,0,failed,1025
+CRUD for users | ... and update the very first user is an supervisor,0.0,0.0,0,0,failed,1025
+CRUD for users | And remove account,0.0,0.0,0,0,failed,1025
+CRUD for users | And update its boss to be MANAGER,0.0,0.0,0,0,failed,1025
+CRUD for users | Check that system does not have ex-MANAGER,0.0,0.0,0,0,failed,1025
+CRUD for users | Check that system has 3 users (one currently logged in and 2 added),0.0,0.0,0,0,failed,1025
+CRUD for users | Check that system has 4 users (one currently logged in and 3 added),0.0,0.0,0,0,failed,1025
+CRUD for users | Check that system has only one - currently logged in user,0.0,0.0,0,0,passed,1025
+CRUD for users | Check that system still has 2 users (one currently logged in and ADMIN),0.0,0.0,0,0,failed,1025
+CRUD for users | Check that system still has 3 users (one currently logged in and 2 added),0.0,0.0,0,0,failed,1025
+CRUD for users | Create ADMIN-to-be user,646.4093130517226,452.0,1,82,failed,1025
+CRUD for users | Create EMPLOYEE-to-be user,646.4093130517226,452.0,1,82,failed,1025
+CRUD for users | Create MANAGER-to-be user,646.4093130517226,452.0,1,82,failed,1025
+CRUD for users | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+CRUD for users | Ensure Adjustment works: check that system prevents from using non-halfs for adjustments,0.0,0.0,0,0,failed,1025
+"CRUD for users | Get the Admin, Manager and Employee IDs",0.0,0.0,0,0,failed,1025
+"CRUD for users | If the adjustment is with half and is negative, it is OK",0.0,0.0,0,0,failed,1025
+"CRUD for users | If the adjustment is with half, it is OK",0.0,0.0,0,0,failed,1025
+CRUD for users | Make sure that ADMIN has admin privilegues,0.0,0.0,0,0,failed,1025
+CRUD for users | Open 'users' page,0.0,0.0,0,0,passed,1025
+CRUD for users | Open ADMIN user details page,0.0,0.0,0,0,passed,1025
+CRUD for users | Open ADMIN user details page (absences),0.0,0.0,0,0,passed,1025
+CRUD for users | Open ADMIN user details page (general),0.0,0.0,0,0,passed,1025
+CRUD for users | Open EMPLOYEE user details page,0.0,0.0,0,0,passed,1025
+CRUD for users | Open MANAGER user details page,0.0,0.0,0,0,passed,1025
+CRUD for users | Open department management page,0.0,0.0,0,0,passed,1025
+CRUD for users | Open departments,0.0,0.0,0,0,passed,1025
+CRUD for users | Open ex-MANAGER user details page,0.0,0.0,0,0,passed,1025
+CRUD for users | Remove account,0.0,0.0,0,0,failed,1025
+CRUD for users | Revoke admin rights,0.0,0.0,0,0,failed,1025
+CRUD for users | Try to remove account,0.0,0.0,0,0,failed,1025
+Carry over issue for users started in current year | Ensure that newly created user's carried over still remains 0,0.0,0.0,0,0,failed,1025
+Carry over issue for users started in current year | Ensure user does not have anything carried over from previous year,0.0,0.0,0,0,failed,1025
+Carry over issue for users started in current year | Obtain information about admin user,0.0,0.0,0,0,passed,1025
+Carry over issue for users started in current year | Open user details page (abcenses section),0.0,0.0,0,0,passed,1025
+Carry over issue for users started in current year | Recalculate carried over allowance for the company,1013.6133385073423,510.0,1,0,passed,1025
+Carry over issue for users started in current year | Register new company,2495.2942593076914,108.0,4,93,passed,1025
+Carry over issue for users started in current year | Update admin details to have start date at very beginig of this year,1091.3739047640822,629.0,1,10,failed,1025
+Carry over issue for users started in current year | Update copany configuration to carry over all unused allowance from previous year,1883.189052364664,281.0,3,0,failed,1025
+Case when holidays spans through more then one month and is devided by bank holiday | 1.5 days deducted for July 2016,0.0,0.0,0,0,failed,1025
+Case when holidays spans through more then one month and is devided by bank holiday | 2 days deducted for Sept 2016,0.0,0.0,0,0,failed,1025
+Case when holidays spans through more then one month and is devided by bank holiday | Approve newly added leave request,0.0,0.0,0,0,failed,1025
+Case when holidays spans through more then one month and is devided by bank holiday | As user B create a holiday request from 12 Aug to 15 Aug 2016 (b),0.0,0.0,0,0,failed,1025
+Case when holidays spans through more then one month and is devided by bank holiday | As user B create a holiday request from 26 Aug to 2 Sep 2016,0.0,0.0,0,0,failed,1025
+Case when holidays spans through more then one month and is devided by bank holiday | As user B create a holiday request from 28 July to morning of 4 Aug 2016 (a),0.0,0.0,0,0,failed,1025
+Case when holidays spans through more then one month and is devided by bank holiday | As user B create a sick day request from 18 to 18 Aug 2016,0.0,0.0,0,0,failed,1025
+Case when holidays spans through more then one month and is devided by bank holiday | As user B cretae a holiday request from 24 Aug to 24 Aug 2016 (but not approved),0.0,0.0,0,0,failed,1025
+Case when holidays spans through more then one month and is devided by bank holiday | Create new bank holiday to be on 2 Aug 2016,1259.16421872992,0.0,2,29,passed,1025
+Case when holidays spans through more then one month and is devided by bank holiday | Create second user B,646.4093130517226,452.0,1,82,failed,1025
+Case when holidays spans through more then one month and is devided by bank holiday | Login as user A (admin),1518.063680283221,0.0,2,28,passed,1025
+Case when holidays spans through more then one month and is devided by bank holiday | Login as user B,1518.063680283221,0.0,2,15,failed,1025
+Case when holidays spans through more then one month and is devided by bank holiday | Logout from user A (admin),1043.7671912525857,0.0,2,0,passed,1025
+Case when holidays spans through more then one month and is devided by bank holiday | Logout from user B,0.0,0.0,0,0,failed,1025
+Case when holidays spans through more then one month and is devided by bank holiday | Navigate to team view and ensure that it shows 9 days were deducted for Aug 2016,0.0,0.0,0,0,failed,1025
+Case when holidays spans through more then one month and is devided by bank holiday | Obtain information about user A,0.0,0.0,0,0,passed,1025
+Case when holidays spans through more then one month and is devided by bank holiday | Obtain information about user B,0.0,0.0,0,0,failed,1025
+Case when holidays spans through more then one month and is devided by bank holiday | Open Book leave popup window,0.0,0.0,0,0,failed,1025
+Case when holidays spans through more then one month and is devided by bank holiday | Open page with bank holidays,0.0,0.0,0,0,passed,1025
+Case when holidays spans through more then one month and is devided by bank holiday | Open requests page,0.0,0.0,0,0,passed,1025
+Case when holidays spans through more then one month and is devided by bank holiday | Register new company as admin user A,2495.2942593076914,108.0,4,93,passed,1025
+Case when leave request is within one day | Is full day and attempt to stick it to the full day part,0.0,0.0,0,0,passed,1025
+Case when leave request is within one day | Is full day and attempt to stick it to the half day part,0.0,0.0,0,0,passed,1025
+Case when leave request is within one day | Is half and attempt to stick to the full day part,0.0,0.0,0,0,passed,1025
+Case when leave request is within one day | Is half and attempt to stick to the half day part so they fit,0.0,0.0,0,0,passed,1025
+Case when leave request is within one day | Is half and attempt to stick to the half day part with clashes,0.0,0.0,0,0,passed,1025
+Changing default company wide schedule | ... and ensure Monday is still working day,0.0,0.0,0,0,failed,1025
+Changing default company wide schedule | ... and ensure Wednesday is marked as non-working day,0.0,0.0,0,0,failed,1025
+Changing default company wide schedule | ... and ensure that Monday is still working day,0.0,0.0,0,0,failed,1025
+Changing default company wide schedule | ... and make sure Wednsday is marked as non-working day,0.0,0.0,0,0,failed,1025
+Changing default company wide schedule | And make sure that it was indeed marked so,0.0,0.0,0,0,failed,1025
+Changing default company wide schedule | Ensure company has default schedule,0.0,0.0,0,0,failed,1025
+Changing default company wide schedule | Make Wednesday to be non-working day,1046.9269094661033,114.0,2,0,passed,1025
+Changing default company wide schedule | Open Calendar page,0.0,0.0,0,0,passed,1025
+Changing default company wide schedule | Open Team view page,0.0,0.0,0,0,passed,1025
+Changing default company wide schedule | Open company details page,0.0,0.0,0,0,passed,1025
+Changing default company wide schedule | Register new company,2495.2942593076914,108.0,4,93,passed,1025
+Check Email | Knows how to render and parse template,0.0,0.0,0,0,passed,1025
+Check Time zones | Create a company,2495.2942593076914,108.0,4,93,passed,1025
+"Check Time zones | Ensure its ""created at"" value on My requests page is today_tonga",0.0,0.0,0,0,failed,1025
+"Check Time zones | Ensure its ""created at"" value on My requests page is today_usa",0.0,0.0,0,0,failed,1025
+Check Time zones | Ensure that today_usa is one day behind the today_tonga,0.0,0.0,0,0,failed,1025
+Check Time zones | Ensure user starts at the very beginning of current year,1091.3739047640822,629.0,1,10,failed,1025
+Check Time zones | Get the current date from Calendar page and ensure it is the same as today_tonga,0.0,0.0,0,0,passed,1025
+Check Time zones | Get the current date from Calendar page and ensure it is the same as today_usa,0.0,0.0,0,0,passed,1025
+Check Time zones | Get the current date from Team view page and ensure it is the same as today_tonga,0.0,0.0,0,0,passed,1025
+Check Time zones | Get the current date from Team view page and ensure it is the same as today_usa,0.0,0.0,0,0,passed,1025
+Check Time zones | Get the date from Book leave modal and put it into today_tonga variable,503.1073444107132,0.0,1,0,passed,1025
+Check Time zones | Get the date from Book leave modal and put it into today_usa,503.1073444107132,0.0,1,0,passed,1025
+Check Time zones | Open Book leave popup window,511.07435858199733,0.0,1,0,passed,1025
+Check Time zones | Open page for editing company details,0.0,0.0,0,0,passed,1025
+Check Time zones | Reject newly added leave,0.0,0.0,0,0,failed,1025
+Check Time zones | Submit new leave request,831.8701821798879,0.0,1,0,passed,1025
+Check Time zones | Update Time zone to be Pacific/Midway,1790.0101997583643,281.0,3,0,failed,1025
+Check Time zones | Update Time zone to be somethng in Tonga,1790.0101997583643,281.0,3,0,failed,1025
+Check basic scenario for Team view page | ... open new department popup and submit form,2676.0449621945195,0.0,4,2,failed,1025
+Check basic scenario for Team view page | Check that company is been updated if valid values are submitted,806.8591382946796,281.0,2,0,failed,1025
+"Check basic scenario for Team view page | Create new department: ""IT""",0.0,0.0,0,0,passed,1025
+Check basic scenario for Team view page | Create new user B,1410.872523415701,452.0,3,82,failed,1025
+Check basic scenario for Team view page | Create user C,1410.872523415701,452.0,3,82,failed,1025
+Check basic scenario for Team view page | Login as user A,1518.063680283221,0.0,2,28,passed,1025
+Check basic scenario for Team view page | Login as user B,1518.063680283221,0.0,2,15,failed,1025
+Check basic scenario for Team view page | Login as user C,1518.063680283221,0.0,2,15,failed,1025
+Check basic scenario for Team view page | Login back as user A,1518.063680283221,0.0,2,28,passed,1025
+Check basic scenario for Team view page | Logout from A account,1043.7671912525857,0.0,2,0,passed,1025
+Check basic scenario for Team view page | Logout from B account,0.0,0.0,0,0,failed,1025
+Check basic scenario for Team view page | Logout from admin account,0.0,0.0,0,0,failed,1025
+Check basic scenario for Team view page | Logout from user A account,1043.7671912525857,0.0,2,0,passed,1025
+Check basic scenario for Team view page | Logout from user C account,0.0,0.0,0,0,failed,1025
+Check basic scenario for Team view page | Make sure that both users are shown on Team view page,0.0,0.0,0,0,failed,1025
+Check basic scenario for Team view page | Make sure user C is superviser of IT department,0.0,0.0,0,0,failed,1025
+Check basic scenario for Team view page | Open page for editing company details,0.0,0.0,0,0,passed,1025
+Check basic scenario for Team view page | Performing registration process,2495.2942593076914,108.0,4,93,passed,1025
+Check basic scenario for Team view page | Update IT department to be supervised by user B,0.0,0.0,0,0,failed,1025
+Check basic scenario for Team view page | and make sure that all users are shown on Team view page,0.0,0.0,0,0,failed,1025
+"Check basic scenario for Team view page | and make sure that all users are shown:  A, B, and C",0.0,0.0,0,0,failed,1025
+Check basic scenario for Team view page | and make sure that only one user C is here,0.0,0.0,0,0,failed,1025
+Check basic scenario for Team view page | and make sure that only user A and B are presented,0.0,0.0,0,0,failed,1025
+Check bug when type mismatch happenned | String value of 2 properly used,0.0,0.0,0,0,passed,1025
+Check calendar month object | It knows whether day is bank holiday,0.0,0.0,0,0,passed,1025
+Check calendar month object | Knows how many blanks to put after the last day of the month,0.0,0.0,0,0,passed,1025
+Check calendar month object | Knows how many blanks to put before first day of the month,0.0,0.0,0,0,passed,1025
+Check calendar month object | Knows how to generate data structure for template,0.0,0.0,0,0,passed,1025
+Check calendar month object | Knows on which week day month starts,0.0,0.0,0,0,passed,1025
+Check calendar month object | Knows whether day is weekend,0.0,0.0,0,0,passed,1025
+Check calendar month object | Normalize provided date to be at the begining of the month,0.0,0.0,0,0,passed,1025
+Check calendar month object | Sanity checks pass,0.0,0.0,0,0,passed,1025
+"Check departments list page | Add new ""AAA"" department",2676.0449621945195,0.0,4,3,failed,1025
+"Check departments list page | Add new ""ZZZ"" department",2688.648636714791,0.0,4,3,failed,1025
+Check departments list page | Ensure department has a link to its Manager edit page,0.0,0.0,0,0,failed,1025
+Check departments list page | Ensure list of departments has links for editing each individual one,0.0,0.0,0,0,passed,1025
+Check departments list page | Ensure that departments respect alphabetical order,0.0,0.0,0,0,failed,1025
+Check departments list page | Ensure that newly added department AAA is on top of the list,0.0,0.0,0,0,failed,1025
+Check departments list page | Ensure that user is landed on department read only list page,0.0,0.0,0,0,passed,1025
+Check departments list page | Open page with department list and ensure it has read-only list,0.0,0.0,0,0,passed,1025
+Check departments list page | Register new account,2495.2942593076914,108.0,4,93,passed,1025
+"Check filtering on ""users"" page | ... and make sure only user from IT department is shown",0.0,0.0,0,0,failed,1025
+"Check filtering on ""users"" page | ... and make sure that both users are presenyed",0.0,0.0,0,0,failed,1025
+"Check filtering on ""users"" page | ... and submit the form",2676.0449621945195,0.0,4,2,failed,1025
+"Check filtering on ""users"" page | ... department and make sure that only one user from that department is shown",0.0,0.0,0,0,passed,1025
+"Check filtering on ""users"" page | Click on ""All"" filter",296.33933252270106,0.0,1,0,passed,1025
+"Check filtering on ""users"" page | Click on ""Sales""",0.0,0.0,0,0,failed,1025
+"Check filtering on ""users"" page | Click on IT department",322.88852565552713,0.0,1,0,passed,1025
+"Check filtering on ""users"" page | Create new department ""IT"": open page",0.0,0.0,0,0,passed,1025
+"Check filtering on ""users"" page | Create new non-admin user",1410.872523415701,452.0,3,82,failed,1025
+"Check filtering on ""users"" page | Make sure that both users are shown",0.0,0.0,0,0,failed,1025
+"Check filtering on ""users"" page | Open 'users' page",0.0,0.0,0,0,passed,1025
+"Check filtering on ""users"" page | Performing registration process",2495.2942593076914,108.0,4,93,passed,1025
+Check get_objects_for_bulk_create | Check case when start and finish dates are the same,0.0,0.0,0,0,passed,1025
+"Check get_objects_for_bulk_create | Start and end dates are the same, and half day",0.0,0.0,0,0,passed,1025
+Check get_objects_for_bulk_create | Three days in a row with first half day,0.0,0.0,0,0,passed,1025
+Check get_objects_for_bulk_create | Two days in a row,0.0,0.0,0,0,passed,1025
+Check only requestor can see the Cancel button | Create second user B,646.4093130517226,452.0,1,82,failed,1025
+Check only requestor can see the Cancel button | Ensure Cancel button is visible for user B,0.0,0.0,0,0,failed,1025
+Check only requestor can see the Cancel button | Ensure new request is there but no Cancel button,0.0,0.0,0,0,passed,1025
+Check only requestor can see the Cancel button | Login as admin user A,1518.063680283221,0.0,2,28,passed,1025
+Check only requestor can see the Cancel button | Login as user B,1518.063680283221,0.0,2,15,failed,1025
+Check only requestor can see the Cancel button | Logout from user A (admin),1043.7671912525857,0.0,2,0,passed,1025
+Check only requestor can see the Cancel button | Obtain information about admin user A,0.0,0.0,0,0,passed,1025
+Check only requestor can see the Cancel button | Obtain information about user B,0.0,0.0,0,0,failed,1025
+Check only requestor can see the Cancel button | Open Book leave popup window,0.0,0.0,0,0,failed,1025
+Check only requestor can see the Cancel button | Open requests page,0.0,0.0,0,0,passed,1025
+Check only requestor can see the Cancel button | Open user B absences section,0.0,0.0,0,0,passed,1025
+Check only requestor can see the Cancel button | Register new company,2495.2942593076914,108.0,4,93,passed,1025
+Check only requestor can see the Cancel button | Submit new leave requesti from user B,0.0,0.0,0,0,failed,1025
+Check that values for new columns are shown only for employess currently login user can supervise | ... and tick that box ON,806.8591382946796,281.0,2,0,failed,1025
+Check that values for new columns are shown only for employess currently login user can supervise | Add new department and make its approver to be user B,2485.521636046245,0.0,4,5,failed,1025
+Check that values for new columns are shown only for employess currently login user can supervise | And make sure it is part of the newly added department,0.0,0.0,0,0,failed,1025
+Check that values for new columns are shown only for employess currently login user can supervise | As user A ensure team view shows deducted values for all three users,0.0,0.0,0,0,failed,1025
+Check that values for new columns are shown only for employess currently login user can supervise | Create second user B,646.4093130517226,452.0,1,82,failed,1025
+Check that values for new columns are shown only for employess currently login user can supervise | Create second user C,646.4093130517226,452.0,1,82,failed,1025
+"Check that values for new columns are shown only for employess currently login user can supervise | Ensure company has ""Share absences between all employees"" flag OFF",0.0,0.0,0,0,passed,1025
+Check that values for new columns are shown only for employess currently login user can supervise | Login as user B,1518.063680283221,0.0,2,15,failed,1025
+Check that values for new columns are shown only for employess currently login user can supervise | Login as user B and ensure she sees deducted days only for user B (self) and user C but not for user A,0.0,0.0,0,0,failed,1025
+Check that values for new columns are shown only for employess currently login user can supervise | Login as user C,1518.063680283221,0.0,2,15,failed,1025
+Check that values for new columns are shown only for employess currently login user can supervise | Login as user C and ensure she sees only values for her account,0.0,0.0,0,0,failed,1025
+Check that values for new columns are shown only for employess currently login user can supervise | Logout from user A (admin),1043.7671912525857,0.0,2,0,passed,1025
+Check that values for new columns are shown only for employess currently login user can supervise | Logout from user B,0.0,0.0,0,0,failed,1025
+Check that values for new columns are shown only for employess currently login user can supervise | Obtain information about user A,0.0,0.0,0,0,passed,1025
+Check that values for new columns are shown only for employess currently login user can supervise | Obtain information about user B,0.0,0.0,0,0,failed,1025
+Check that values for new columns are shown only for employess currently login user can supervise | Obtain information about user C,0.0,0.0,0,0,failed,1025
+Check that values for new columns are shown only for employess currently login user can supervise | Open department management page,0.0,0.0,0,0,passed,1025
+Check that values for new columns are shown only for employess currently login user can supervise | Open page for editing company details,0.0,0.0,0,0,passed,1025
+Check that values for new columns are shown only for employess currently login user can supervise | Open user editing page for user B,0.0,0.0,0,0,passed,1025
+Check that values for new columns are shown only for employess currently login user can supervise | Register new company as admin user A,2495.2942593076914,108.0,4,93,passed,1025
+Check the client side logic to facilitate filling new absence form | Ensure by default FROM and TO fields are populated with current date,0.0,0.0,0,0,passed,1025
+Check the client side logic to facilitate filling new absence form | Open Book new leave pop up window,503.1073444107132,0.0,1,0,passed,1025
+Check the client side logic to facilitate filling new absence form | Open calendar page,0.0,0.0,0,0,passed,1025
+Check the client side logic to facilitate filling new absence form | Register new company,2495.2942593076914,108.0,4,93,passed,1025
+Check the client side logic to facilitate filling new absence form | Update FROM to be in future and make sure TO is automatically addusted to the same date,0.0,0.0,0,10,failed,1025
+Check the client side logic to facilitate filling new absence form | Update FROM to be in past and make sure TO is stays unchanged,0.0,0.0,0,10,failed,1025
+Check validation for leave request | No parameters provided,0.0,0.0,0,0,passed,1025
+Check validation for leave request | Reason is optional,0.0,0.0,0,0,passed,1025
+Check validation for leave request | Successfull scenario,0.0,0.0,0,0,passed,1025
+Check validation for leave request | User index is invalid,0.0,0.0,0,0,passed,1025
+Check validation for leave request | from_date has invalid value,0.0,0.0,0,0,passed,1025
+Check validation for leave request | from_date_part has invalid value,0.0,0.0,0,0,passed,1025
+Check validation for leave request | inter_year leave request,0.0,0.0,0,0,passed,1025
+Check validation for leave request | start dates is greater than end one,0.0,0.0,0,0,passed,1025
+Coloring of half days | Add absence: 2018-02-01 (afternoon) - 2018-02-02 (morning) Sick,2611.2995240972605,0.0,6,20,failed,1025
+Coloring of half days | Add absence: 2018-02-02 (afternoon) - 2018-02-02 (afternnon) : Holiday,0.0,0.0,0,0,failed,1025
+Coloring of half days | Add absence: 2018-02-08 (morning) - 2018-02-08 (morning) : Holiday (0.5 days),0.0,0.0,0,0,failed,1025
+Coloring of half days | Add absence: 2018-02-13 (afternoon) - 2018-02-14 (morning) : Sick,0.0,0.0,0,0,failed,1025
+Coloring of half days | Add absence: 2018-02-14 (afternoon) - 2018-02-15 (morning) : Holiday,0.0,0.0,0,0,failed,1025
+"Coloring of half days | Changes default color for Sick days to be ""color 3""",887.6879353705517,761.0,3,0,passed,1025
+Coloring of half days | Ensure that all absences are approved,0.0,0.0,0,0,failed,1025
+Coloring of half days | Ensure user starts at the very beginning of current year,1091.3739047640822,629.0,1,10,failed,1025
+Coloring of half days | Go Calendar page,0.0,0.0,0,0,passed,1025
+Coloring of half days | Go to Team view page and ensure that all half a day cells have correct color classes,0.0,0.0,0,0,failed,1025
+Coloring of half days | Go to callendar page and ensure that all half days cells have correct color classes,0.0,0.0,0,0,failed,1025
+Coloring of half days | Go to report page and for 2018-02 ensure that report contains correct summaries,0.0,0.0,0,0,failed,1025
+Coloring of half days | Obtain information user,0.0,0.0,0,0,passed,1025
+Coloring of half days | On Team view page ensure that days deducted from allowance are stated correctly,0.0,0.0,0,0,failed,1025
+Coloring of half days | Open requests page,0.0,0.0,0,0,passed,1025
+Coloring of half days | Performing registration process,2495.2942593076914,108.0,4,93,passed,1025
+Cross linking on Teamview page | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Cross linking on Teamview page | Create new user B,646.4093130517226,452.0,1,82,failed,1025
+Cross linking on Teamview page | Login as user B,1518.063680283221,0.0,2,15,failed,1025
+Cross linking on Teamview page | Logout from A account,1043.7671912525857,0.0,2,0,passed,1025
+Cross linking on Teamview page | Make sure that both users are shown on Team view page,0.0,0.0,0,0,failed,1025
+Cross linking on Teamview page | Make sure that only user A and B are presented,0.0,0.0,0,0,failed,1025
+Deactivate and activate user | ... use empty end_date,0.0,0.0,0,0,failed,1025
+Deactivate and activate user | ... use end_date in future,0.0,0.0,0,0,failed,1025
+Deactivate and activate user | Although setting end_date to some value in past still works,0.0,0.0,0,0,failed,1025
+Deactivate and activate user | Check that the deactivated badge is displayed,0.0,0.0,0,0,failed,1025
+Deactivate and activate user | Check that the deactivated badge is not displayed,0.0,0.0,0,0,passed,1025
+Deactivate and activate user | Create EMPLOYEE,646.4093130517226,452.0,1,82,failed,1025
+Deactivate and activate user | Create another company for EMPLOYEE email,2495.2942593076914,108.0,4,93,passed,1025
+Deactivate and activate user | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Deactivate and activate user | Login back as ADMIN,1518.063680283221,0.0,2,28,passed,1025
+Deactivate and activate user | Logout from ADMIN,1043.7671912525857,0.0,2,0,passed,1025
+Deactivate and activate user | Logout from new company created by EMPLOYEE,1043.7671912525857,0.0,2,0,passed,1025
+Deactivate and activate user | Mark EMPLOYEE as inactive by specifying end date to be in past,0.0,0.0,0,0,failed,1025
+Deactivate and activate user | Obtain information about employee,0.0,0.0,0,0,failed,1025
+Deactivate and activate user | Try to activate EMPLOYEE back. Open details page,0.0,0.0,0,0,passed,1025
+Dealing with inactive users | Check that employee is striked in the list,0.0,0.0,0,0,failed,1025
+Dealing with inactive users | Create EMPLOYEE,646.4093130517226,452.0,1,82,failed,1025
+Dealing with inactive users | Create MANAGER,646.4093130517226,452.0,1,82,failed,1025
+Dealing with inactive users | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Dealing with inactive users | Login as an EMPLOYEE to make sure it is possible,1518.063680283221,0.0,2,15,failed,1025
+Dealing with inactive users | Login back as ADMIN,1518.063680283221,0.0,2,28,passed,1025
+Dealing with inactive users | Logout from EMPLOYEE account,0.0,0.0,0,0,failed,1025
+Dealing with inactive users | Logout from admin account,1043.7671912525857,0.0,2,0,passed,1025
+Dealing with inactive users | Make sure EMPLOYEE is not on Team view page anymore,0.0,0.0,0,0,failed,1025
+Dealing with inactive users | Make sure EMPLOYEE shows up on the Team view page,0.0,0.0,0,0,failed,1025
+Dealing with inactive users | Make sure that EMPLOYEE still is shown on users page decpite being inactive,0.0,0.0,0,0,failed,1025
+Dealing with inactive users | Mark EMPLOYEE as one inactive one by specifying end date to be in past,0.0,0.0,0,0,failed,1025
+Dealing with inactive users | Open department management page,0.0,0.0,0,0,passed,1025
+Dealing with inactive users | Open department settings page,0.0,0.0,0,0,passed,1025
+Dealing with inactive users | Open departments management page,0.0,0.0,0,0,passed,1025
+Dealing with inactive users | Open employee details page,0.0,0.0,0,0,passed,1025
+Dealing with inactive users | Open users list page,0.0,0.0,0,0,passed,1025
+Dealing with inactive users | See if EMPLOYEE is among possible approvers,0.0,0.0,0,0,failed,1025
+Dealing with inactive users | Try to add new department and make sure that EMPLOYEE is not among potentual approvers,0.0,0.0,0,0,passed,1025
+Dealing with inactive users | Try to login as EMPLOYEE and make sure system rejects,1518.063680283221,0.0,2,15,passed,1025
+Dealing with inactive users | Update department to be supervised by MANAGER,0.0,0.0,0,0,failed,1025
+Dealing with inactive users | obtain detailed info about employee (ID etc),0.0,0.0,0,0,failed,1025
+Edit company details | Check that company is been updated if valid values are submitted,1613.4556627873428,281.0,3,16,failed,1025
+Edit company details | Open page for editing company details,0.0,0.0,0,0,passed,1025
+Edit company details | Performing registration process,2495.2942593076914,108.0,4,93,passed,1025
+Edit individual department via department details page | ... and move her to newly added department,783.9349462806209,0.0,1,0,failed,1025
+Edit individual department via department details page | ... save edit page URL,0.0,0.0,0,0,passed,1025
+"Edit individual department via department details page | Add new ""AAA"" department",2676.0449621945195,0.0,4,3,failed,1025
+Edit individual department via department details page | Create second user B,646.4093130517226,452.0,1,82,failed,1025
+Edit individual department via department details page | Edit department,0.0,0.0,0,0,failed,1025
+Edit individual department via department details page | Ensure that chnages were applied,0.0,0.0,0,0,failed,1025
+Edit individual department via department details page | Ensure that system prevents deleting department,0.0,0.0,0,0,failed,1025
+Edit individual department via department details page | Ensure that user stays on the same page after updating department details,0.0,0.0,0,0,passed,1025
+Edit individual department via department details page | Ensure that we have landed on correct page,0.0,0.0,0,0,passed,1025
+Edit individual department via department details page | Fetch newly added department ID,0.0,0.0,0,0,failed,1025
+Edit individual department via department details page | Go to departments list by clicking on corresponding link,0.0,0.0,0,0,failed,1025
+Edit individual department via department details page | Go to the very first department details page,0.0,0.0,0,0,passed,1025
+Edit individual department via department details page | Obtain information about user A,0.0,0.0,0,0,passed,1025
+Edit individual department via department details page | Obtain information about user B,0.0,0.0,0,0,failed,1025
+Edit individual department via department details page | Open page with department list and click first department in the list,0.0,0.0,0,0,failed,1025
+Edit individual department via department details page | Open user A details page,0.0,0.0,0,0,passed,1025
+Edit individual department via department details page | Open user B details page,0.0,0.0,0,0,passed,1025
+Edit individual department via department details page | Register new account,2495.2942593076914,108.0,4,93,passed,1025
+Edit individual department via department details page | Remove the department by pressing Delete button,0.0,0.0,0,0,failed,1025
+Edit individual department via department details page | Try to remove the department by pressing Delete button on current page,0.0,0.0,0,0,failed,1025
+Edit user to have duplicated email | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Edit user to have duplicated email | Create second user,646.4093130517226,452.0,1,82,failed,1025
+Edit user to have duplicated email | Make sure that both users are shown and click on latest user (assuming users are sorted alphabetichally and test user names are derived from epoch),0.0,0.0,0,0,failed,1025
+Edit user to have duplicated email | Open 'users' page,0.0,0.0,0,0,passed,1025
+Edit user to have duplicated email | Try to assign to second user the same email as ADMIN has,0.0,0.0,0,0,failed,1025
+Edit user to have duplicated email | Update email user with unique email address,0.0,0.0,0,0,failed,1025
+Emails are case insensitive | Login with lower case email,1518.063680283221,0.0,2,38,passed,1025
+Emails are case insensitive | Logount from current session,1043.7671912525857,0.0,2,0,passed,1025
+Emails are case insensitive | Logout,1043.7671912525857,0.0,2,0,passed,1025
+Emails are case insensitive | Register an account useing upper case letters,2495.2942593076914,108.0,4,103,passed,1025
+Emails are case insensitive | Try to login with upper case email,1518.063680283221,0.0,2,38,passed,1025
+Employee start date is in previouse year and end date is in next year | ajustment is made based on end date,0.0,0.0,0,0,passed,1025
+Employee start date is in prevouse year but end date is in current year | ajustment is made based on end date,0.0,0.0,0,0,passed,1025
+Employee start day is in previouse year and no end date | no automatic adjustment,0.0,0.0,0,0,passed,1025
+"Employee started last year, today is is beginning of Feb | Check accrued_adjustment",0.0,0.0,0,0,passed,1025
+"Employee started last year, today is is beginning of Feb | Ensure year total alloance is correct",0.0,0.0,0,0,passed,1025
+Enable/disable Integration APIs | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Enable/disable Integration APIs | Disable the API integration for current company,726.1678309140939,0.0,2,0,passed,1025
+Enable/disable Integration APIs | Enable the API and repeate the invokation above: ensure that now it is successful,726.1678309140939,0.0,2,0,failed,1025
+Enable/disable Integration APIs | Ensure that API end points do not work anymore,0.0,0.0,0,0,failed,1025
+Enable/disable Integration APIs | Ensure that newly renenerated API key works fine,0.0,0.0,0,0,failed,1025
+Enable/disable Integration APIs | Ensure that old API key is not valid anymore,0.0,0.0,0,0,failed,1025
+Enable/disable Integration APIs | Navigate to API page and ensure the API is disable,0.0,0.0,0,0,passed,1025
+Enable/disable Integration APIs | Read the key and try to invoke the API with that key: ensure the end point is blocked,0.0,0.0,0,0,failed,1025
+Enable/disable Integration APIs | Regenerate the API key,673.5317364460267,0.0,1,0,passed,1025
+Ensure employee calendar from admin section shows bookings | Create second user B,646.4093130517226,452.0,1,82,failed,1025
+Ensure employee calendar from admin section shows bookings | Login as admin user A,1518.063680283221,0.0,2,28,passed,1025
+Ensure employee calendar from admin section shows bookings | Login as user B,1518.063680283221,0.0,2,15,failed,1025
+Ensure employee calendar from admin section shows bookings | Logout from user A (admin),1043.7671912525857,0.0,2,0,passed,1025
+Ensure employee calendar from admin section shows bookings | Logout from user B,0.0,0.0,0,0,failed,1025
+Ensure employee calendar from admin section shows bookings | Obtain information about user B,0.0,0.0,0,0,failed,1025
+Ensure employee calendar from admin section shows bookings | Open Book leave popup window,0.0,0.0,0,0,failed,1025
+Ensure employee calendar from admin section shows bookings | Open user B calendar section and ensure the newly added booking is there,0.0,0.0,0,0,failed,1025
+Ensure employee calendar from admin section shows bookings | Register new company,2495.2942593076914,108.0,4,93,passed,1025
+Ensure employee calendar from admin section shows bookings | Submit new leave request from user B,0.0,0.0,0,0,failed,1025
+Ensure that leaves with not full days are rendered properly | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Ensure that leaves with not full days are rendered properly | Create new non-admin user,646.4093130517226,452.0,1,82,failed,1025
+Ensure that leaves with not full days are rendered properly | Ensure that both new leave requests are listed and both are marked as partial,0.0,0.0,0,0,failed,1025
+Ensure that leaves with not full days are rendered properly | Ensure that both new leave requests are listed for approval and both are marked as partial,0.0,0.0,0,0,failed,1025
+Ensure that leaves with not full days are rendered properly | Ensure tooltips include leave type name,0.0,0.0,0,0,failed,1025
+Ensure that leaves with not full days are rendered properly | Go to my requests page,0.0,0.0,0,0,passed,1025
+Ensure that leaves with not full days are rendered properly | Login as admin user,1518.063680283221,0.0,2,28,passed,1025
+Ensure that leaves with not full days are rendered properly | Login as non-admin user,1518.063680283221,0.0,2,15,failed,1025
+Ensure that leaves with not full days are rendered properly | Logout from admin acount,1043.7671912525857,0.0,2,0,passed,1025
+Ensure that leaves with not full days are rendered properly | Logout from non-admin account,0.0,0.0,0,0,failed,1025
+Ensure that leaves with not full days are rendered properly | Open calendar page,0.0,0.0,0,0,passed,1025
+Ensure that leaves with not full days are rendered properly | Request just morning,0.0,0.0,0,0,failed,1025
+Ensure that leaves with not full days are rendered properly | Request just multi days leave starting next afternoon,0.0,0.0,0,0,failed,1025
+Ensure that leaves with not full days are rendered properly | Request new partial leave: afternoon to morning,0.0,0.0,0,0,failed,1025
+Ensure that leaves with not full days are rendered properly | Request new partial leave: morning to afternoon,0.0,0.0,0,0,failed,1025
+Leave in the next year (2026) when no allowance in the current one | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Leave in the next year (2026) when no allowance in the current one | Submit leave request for of one week in next year,501.28834017958167,29.0,1,20,failed,1025
+Leave in the next year (2026) when no allowance in the current one | Update user to start at the very end of current year: 20 Dec,1091.3739047640822,629.0,1,10,failed,1025
+Leave request cancelation |  Logout from user B account,0.0,0.0,0,0,failed,1025
+Leave request cancelation | Approve new leave request,0.0,0.0,0,0,failed,1025
+Leave request cancelation | Cancel leave request,0.0,0.0,0,0,failed,1025
+Leave request cancelation | Check precondition,0.0,0.0,0,0,failed,1025
+"Leave request cancelation | Check that allowance section of user details page shows ""15 out of 20""",0.0,0.0,0,0,failed,1025
+Leave request cancelation | Create second user B,646.4093130517226,452.0,1,82,failed,1025
+"Leave request cancelation | Ensure ""remaining"" 15",0.0,0.0,0,0,failed,1025
+"Leave request cancelation | Ensure ""used"" shows 5",0.0,0.0,0,0,failed,1025
+Leave request cancelation | Ensure its details shows nothing from allowance was used,0.0,0.0,0,0,failed,1025
+Leave request cancelation | Ensure newly created request is on Requests page,0.0,0.0,0,0,failed,1025
+Leave request cancelation | Ensure that My requests page does not contain any entries,0.0,0.0,0,0,passed,1025
+Leave request cancelation | Ensure that new request is in Pending status,0.0,0.0,0,0,failed,1025
+Leave request cancelation | Ensure that new request is single one,0.0,0.0,0,0,failed,1025
+Leave request cancelation | Ensure that there is no pending leave requests,0.0,0.0,0,0,passed,1025
+Leave request cancelation | Ensure that there were two emails regarding cancelation,0.0,0.0,0,0,failed,1025
+Leave request cancelation | Initiate revoke procedure (but not finish),0.0,0.0,0,0,failed,1025
+Leave request cancelation | Login as user B,1518.063680283221,0.0,2,15,failed,1025
+Leave request cancelation | Login back as admin user A,1518.063680283221,0.0,2,28,passed,1025
+Leave request cancelation | Logout from user A (admin),1043.7671912525857,0.0,2,0,passed,1025
+Leave request cancelation | Obtain information about admin user A,0.0,0.0,0,0,passed,1025
+Leave request cancelation | Obtain information about user B,0.0,0.0,0,0,failed,1025
+Leave request cancelation | Open Book leave popup window,501.28834017958167,29.0,1,0,passed,1025
+Leave request cancelation | Open email audit page,0.0,0.0,0,0,passed,1025
+Leave request cancelation | Open employees list page,0.0,0.0,0,0,passed,1025
+Leave request cancelation | Open requests page,0.0,0.0,0,0,passed,1025
+Leave request cancelation | Open user A details page (abcenses section),0.0,0.0,0,0,passed,1025
+Leave request cancelation | Open user B absences section,0.0,0.0,0,0,passed,1025
+Leave request cancelation | Register new company,2495.2942593076914,108.0,4,93,passed,1025
+Leave request cancelation | Submit leave request for the same date as the first,0.0,0.0,0,0,failed,1025
+Leave request cancelation | Submit new leave request for user A one weekday,0.0,0.0,0,20,failed,1025
+Leave request cancelation | Submit new leave request from user B for one weekday,0.0,0.0,0,0,failed,1025
+Leave request cancelation | Update admin details to have start date at very beginig of this year,1091.3739047640822,629.0,1,10,failed,1025
+"Leave request is spread through more then one day | both ends are full, stick to the end",0.0,0.0,0,0,passed,1025
+"Leave request is spread through more then one day | both ends are full, stick to the start",0.0,0.0,0,0,passed,1025
+Leave request is spread through more then one day | ends with part stick to the part start - should fit,0.0,0.0,0,0,passed,1025
+"Leave request is spread through more then one day | ends with part, stick to the part start - with clashes",0.0,0.0,0,0,passed,1025
+Leave request is spread through more then one day | leave object is instanciated,0.0,0.0,0,0,passed,1025
+"Leave request is spread through more then one day | start with with part, stick to the full end",0.0,0.0,0,0,passed,1025
+Leave request reflects shanges in company schedule | ... and ensure newly created request deducts 5 days from allowance,0.0,0.0,0,0,failed,1025
+Leave request reflects shanges in company schedule | ... and ensure newly created request deducts 6 days from allowance,0.0,0.0,0,0,failed,1025
+Leave request reflects shanges in company schedule | Ensure user starts at the very beginning of current year,1091.3739047640822,629.0,1,10,failed,1025
+Leave request reflects shanges in company schedule | Make Saturday to be working day,1052.8550570986783,114.0,2,0,passed,1025
+Leave request reflects shanges in company schedule | Obtain information about newly added user,0.0,0.0,0,0,passed,1025
+Leave request reflects shanges in company schedule | Open Book leave popup window,501.28834017958167,29.0,1,0,passed,1025
+Leave request reflects shanges in company schedule | Open company details page,0.0,0.0,0,0,passed,1025
+Leave request reflects shanges in company schedule | Open requests page,0.0,0.0,0,0,passed,1025
+Leave request reflects shanges in company schedule | Register new company,2495.2942593076914,108.0,4,93,passed,1025
+Leave request reflects shanges in company schedule | Submit new leave requesti for 7 calendar days,0.0,0.0,0,20,failed,1025
+Leave request with single user | Check that all days are marked as pended,0.0,0.0,0,0,failed,1025
+Leave request with single user | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Leave request with single user | Create new leave request,1678.746803136059,0.0,3,20,failed,1025
+Leave request with single user | Ensure user starts at the very beginning of current year,1091.3739047640822,629.0,1,10,failed,1025
+Leave request with single user | Open calendar page,0.0,0.0,0,0,passed,1025
+Leave request with single user | Open page to create new leave,503.1073444107132,0.0,1,0,passed,1025
+Leave type limits for next year: 2026 | Add a request that fits under the limit,0.0,0.0,0,0,failed,1025
+Leave type limits for next year: 2026 | And try to request one more day of the type already 100% taken,0.0,0.0,0,0,failed,1025
+Leave type limits for next year: 2026 | Approve newly added leave request,0.0,0.0,0,0,failed,1025
+Leave type limits for next year: 2026 | Check that it is possible to update Limits,669.3056103156465,899.0,1,1,passed,1025
+Leave type limits for next year: 2026 | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Leave type limits for next year: 2026 | Create new non-admin user,646.4093130517226,452.0,1,82,failed,1025
+Leave type limits for next year: 2026 | Login as Admin,1518.063680283221,0.0,2,28,passed,1025
+Leave type limits for next year: 2026 | Login as non-admin user,1518.063680283221,0.0,2,15,failed,1025
+Leave type limits for next year: 2026 | Logout from admin account,1043.7671912525857,0.0,2,0,passed,1025
+Leave type limits for next year: 2026 | Logout from regular user session,0.0,0.0,0,0,failed,1025
+Leave type limits for next year: 2026 | Open calendar page,0.0,0.0,0,0,passed,1025
+Leave type limits for next year: 2026 | Open page with leave types,0.0,0.0,0,0,passed,1025
+Leave type limits for next year: 2026 | Open requests page,0.0,0.0,0,0,passed,1025
+Leave type limits in actoion | Add a request that fits under the limit,0.0,0.0,0,0,failed,1025
+Leave type limits in actoion | And make sure that it is calendar indeed,0.0,0.0,0,0,failed,1025
+Leave type limits in actoion | Check that it is possible to update Limits,669.3056103156465,899.0,1,1,passed,1025
+Leave type limits in actoion | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Leave type limits in actoion | Create new non-admin user,646.4093130517226,452.0,1,82,failed,1025
+Leave type limits in actoion | Login as non-admin user,1518.063680283221,0.0,2,15,failed,1025
+Leave type limits in actoion | Logout from admin account,1043.7671912525857,0.0,2,0,passed,1025
+Leave type limits in actoion | Open calendar page,0.0,0.0,0,0,passed,1025
+Leave type limits in actoion | Open page with leave types,0.0,0.0,0,0,passed,1025
+Leave type limits in actoion | Try to request new leave that exceed the limit,0.0,0.0,0,0,failed,1025
+Menu bar reflect permissions of logged in user | Check that admin links are not shown,0.0,0.0,0,0,passed,1025
+Menu bar reflect permissions of logged in user | Check that all necessary menus are shown,0.0,0.0,0,0,failed,1025
+Menu bar reflect permissions of logged in user | Check that limited links are there,0.0,0.0,0,0,failed,1025
+Menu bar reflect permissions of logged in user | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Menu bar reflect permissions of logged in user | Create non-admin user,646.4093130517226,452.0,1,82,failed,1025
+Menu bar reflect permissions of logged in user | Login as ordinary user,1518.063680283221,0.0,2,15,failed,1025
+Menu bar reflect permissions of logged in user | Logout from admin acount,1043.7671912525857,0.0,2,0,passed,1025
+No negative allowanca is carried overs | Add and approve week long leave in last year,970.7150860061663,0.0,2,20,failed,1025
+No negative allowanca is carried overs | Adjust user's deparment's allpwance to be 1 day,0.0,0.0,0,0,failed,1025
+No negative allowanca is carried overs | Amend its user to started at the very begining of last year,1091.3739047640822,629.0,1,10,failed,1025
+No negative allowanca is carried overs | Calculate carry over,1013.6133385073423,368.0,1,0,passed,1025
+"No negative allowanca is carried overs | Ensure that company has Carry Over set to be ""None""",0.0,0.0,0,0,passed,1025
+No negative allowanca is carried overs | Ensure that newly created user's carried over still remains 0,0.0,0.0,0,0,failed,1025
+No negative allowanca is carried overs | Ensure that nominal allowance was reduced to 1,0.0,0.0,0,0,failed,1025
+No negative allowanca is carried overs | Obtain information about admin user,0.0,0.0,0,0,passed,1025
+No negative allowanca is carried overs | Register new company,2495.2942593076914,108.0,4,93,passed,1025
+No negative allowanca is carried overs | Update user to have her leaves be auto apporved,1302.1604836044287,629.0,2,0,failed,1025
+Overlapping bookings | And make sure that it is calendar indeed,0.0,0.0,0,0,failed,1025
+Overlapping bookings | Check that all days are marked as pended,0.0,0.0,0,0,failed,1025
+Overlapping bookings | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Overlapping bookings | Create new non-admin user,646.4093130517226,452.0,1,82,failed,1025
+Overlapping bookings | Login as non-admin user,1518.063680283221,0.0,2,15,failed,1025
+Overlapping bookings | Logout from admin acount,1043.7671912525857,0.0,2,0,passed,1025
+Overlapping bookings | Open calendar page,0.0,0.0,0,0,passed,1025
+Overlapping bookings | Request new leave,0.0,0.0,0,0,failed,1025
+Overlapping bookings | Try to request overlapping leave request,0.0,0.0,0,0,failed,1025
+Overlapping leaverequest (with halfs) | And create correct one,0.0,0.0,0,0,failed,1025
+Overlapping leaverequest (with halfs) | And make sure that it is calendar indeed,0.0,0.0,0,0,failed,1025
+Overlapping leaverequest (with halfs) | Check that all days are marked as pended,0.0,0.0,0,0,failed,1025
+Overlapping leaverequest (with halfs) | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Overlapping leaverequest (with halfs) | Create new non-admin user,646.4093130517226,452.0,1,82,failed,1025
+Overlapping leaverequest (with halfs) | Login as non-admin user,1518.063680283221,0.0,2,15,failed,1025
+Overlapping leaverequest (with halfs) | Logout from admin acount,1043.7671912525857,0.0,2,0,passed,1025
+Overlapping leaverequest (with halfs) | Open calendar page,0.0,0.0,0,0,passed,1025
+Overlapping leaverequest (with halfs) | Request new leave,0.0,0.0,0,0,failed,1025
+Overlapping leaverequest (with halfs) | Try to create new leave request that colides with existing by halfs,0.0,0.0,0,0,failed,1025
+Overlapping leaverequest (with halfs) | Try to create new request that overlaps with existing one: new request's half end colides with full part of existing one,0.0,0.0,0,0,failed,1025
+Overlapping leaverequest (with halfs) | Try to request overlapping leave request (new request overlaps with half by the full end),0.0,0.0,0,0,failed,1025
+Populate company wide schedule before using user specific one | And make sure that it was indeed marked so,0.0,0.0,0,0,failed,1025
+Populate company wide schedule before using user specific one | Create second user B,646.4093130517226,452.0,1,82,failed,1025
+"Populate company wide schedule before using user specific one | Ensure team view shows user A has Mon, Tue, Wed as working days",0.0,0.0,0,0,failed,1025
+"Populate company wide schedule before using user specific one | Ensure team view shows user A has Thu, Fri, Sat, Sun as non-working days",0.0,0.0,0,0,failed,1025
+"Populate company wide schedule before using user specific one | Ensure team view shows user B has Fri, Sat, Sun as non-working days",0.0,0.0,0,0,failed,1025
+"Populate company wide schedule before using user specific one | Ensure team view shows user B has Mon, Tue, Wed, Thu as working days",0.0,0.0,0,0,failed,1025
+Populate company wide schedule before using user specific one | Ensure that User B details shows new schedule,0.0,0.0,0,0,failed,1025
+Populate company wide schedule before using user specific one | Make Thu and Fri to be non-working day,1047.818069620001,114.0,3,0,passed,1025
+Populate company wide schedule before using user specific one | Obtain information about user A,0.0,0.0,0,0,passed,1025
+Populate company wide schedule before using user specific one | Obtain information about user B,0.0,0.0,0,0,failed,1025
+Populate company wide schedule before using user specific one | Open Team view page,0.0,0.0,0,0,passed,1025
+Populate company wide schedule before using user specific one | Open company details page,0.0,0.0,0,0,passed,1025
+Populate company wide schedule before using user specific one | Open user B schedule,0.0,0.0,0,0,passed,1025
+Populate company wide schedule before using user specific one | Register new company,2495.2942593076914,108.0,4,93,passed,1025
+Populate company wide schedule before using user specific one | Update user B to have Fri to be non-working day (by toggling off Thu),0.0,0.0,0,0,failed,1025
+Register new user | Go back to Calendar page and ensure that available and total days are same and are 12,0.0,0.0,0,0,failed,1025
+Register new user | Go back to Calendar page and ensure that available and total days are same and are 20,0.0,0.0,0,0,failed,1025
+Register new user | Navigate to current uer details,479.20767940424327,0.0,1,0,passed,1025
+Register new user | Performing registration process,2495.2942593076914,108.0,4,93,passed,1025
+Register new user | Update start date to be mid-year,1091.3739047640822,629.0,1,10,failed,1025
+Register new user | Update start date to be start of the year,1091.3739047640822,629.0,1,10,failed,1025
+Remove company account | Book a leave by user from company A,1173.1577532467504,29.0,3,20,failed,1025
+Remove company account | Book a leave by user from company B,1173.1577532467504,29.0,3,20,failed,1025
+Remove company account | Close down current session,0.0,0.0,0,0,passed,1025
+Remove company account | Create Company A,2495.2942593076914,108.0,4,93,passed,1025
+Remove company account | Create Company B,2495.2942593076914,108.0,4,93,passed,1025
+Remove company account | Ensure it is not possible to login back,0.0,0.0,0,0,failed,1025
+Remove company account | Ensure that admin still has a leave registered,0.0,0.0,0,0,failed,1025
+Remove company account | Ensure that there are still records in Email audit page,0.0,0.0,0,0,failed,1025
+Remove company account | Ensure that user is logout (by trying to poen general setting page),0.0,0.0,0,0,failed,1025
+Remove company account | Ensure user starts at the very beginning of current year,1091.3739047640822,629.0,1,10,failed,1025
+Remove company account | Login as Admin from company A and remove company's account,3323.4228288813097,1919.0,6,40,failed,1025
+Remove company account | Login as admin of company B,0.0,0.0,0,0,failed,1025
+Remove company account | Logout from Company B,1043.7671912525857,0.0,2,0,passed,1025
+Request leave for outher users | ... make sure there are two records in it,0.0,0.0,0,0,failed,1025
+Request leave for outher users | Add new department and make its approver to be newly added line manager (she is second in a list as users are ordered by AZ),2485.521636046245,0.0,4,5,failed,1025
+Request leave for outher users | And make sure it is part of the newly added department,0.0,0.0,0,0,failed,1025
+Request leave for outher users | And make sure that user can select all three users,503.1073444107132,0.0,1,0,failed,1025
+Request leave for outher users | And make sure that user can select herself and ordenary user (because she belongs to the department managed by current line manager),0.0,0.0,0,0,failed,1025
+Request leave for outher users | And make sure that user cannot select other users when requesting new leave,0.0,0.0,0,0,failed,1025
+Request leave for outher users | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Request leave for outher users | Create new line manager user,646.4093130517226,452.0,1,82,failed,1025
+Request leave for outher users | Create new ordanry user,646.4093130517226,452.0,1,82,failed,1025
+Request leave for outher users | Login as admin user,1518.063680283221,0.0,2,28,passed,1025
+Request leave for outher users | Login as line manager user,1518.063680283221,0.0,2,15,failed,1025
+Request leave for outher users | Login as ordenary user,1518.063680283221,0.0,2,15,failed,1025
+Request leave for outher users | Logout from admin acount,1043.7671912525857,0.0,2,0,passed,1025
+Request leave for outher users | Logout from ordenary acount,0.0,0.0,0,0,failed,1025
+Request leave for outher users | Make sure ordenary user is in that drop down list,0.0,0.0,0,0,failed,1025
+Request leave for outher users | Open calendar page,0.0,0.0,0,0,passed,1025
+Request leave for outher users | Open department management page,0.0,0.0,0,0,passed,1025
+Request leave for outher users | Open user editing page for ordenry user,0.0,0.0,0,0,passed,1025
+Request leave for outher users | Save ID of ordenry user,0.0,0.0,0,0,failed,1025
+Reuse email from existing acount when creating new company | Close the browser,0.0,0.0,0,0,passed,1025
+Reuse email from existing acount when creating new company | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Reuse email from existing acount when creating new company | Logout from newly created account,1043.7671912525857,0.0,2,0,passed,1025
+Reuse email from existing acount when creating new company | Try to create another account with the same email,2495.2942593076914,108.0,4,93,passed,1025
+Revoke leave request by Admin | ... and revoke her time off,0.0,0.0,0,0,failed,1025
+Revoke leave request by Admin | And make sure that it is calendar indeed,0.0,0.0,0,0,failed,1025
+Revoke leave request by Admin | Approve newly added leave request,0.0,0.0,0,0,failed,1025
+Revoke leave request by Admin | Approve revoke request,0.0,0.0,0,0,failed,1025
+Revoke leave request by Admin | Check that all days are marked as pended,0.0,0.0,0,0,failed,1025
+Revoke leave request by Admin | Create EMPLOYEE-to-be user,646.4093130517226,452.0,1,82,failed,1025
+Revoke leave request by Admin | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Revoke leave request by Admin | Create new leave request,0.0,0.0,0,0,failed,1025
+Revoke leave request by Admin | Login as EMPLOYEE user,1518.063680283221,0.0,2,15,failed,1025
+Revoke leave request by Admin | Login as an ADMIN user,1518.063680283221,0.0,2,28,passed,1025
+Revoke leave request by Admin | Logout from EMPLOYEE account,0.0,0.0,0,0,failed,1025
+Revoke leave request by Admin | Logout from admin account,1043.7671912525857,0.0,2,0,passed,1025
+Revoke leave request by Admin | Make sure newly revoked request is shown for approval,0.0,0.0,0,0,failed,1025
+Revoke leave request by Admin | Make sure that newly created request is waiting for approval,0.0,0.0,0,0,failed,1025
+Revoke leave request by Admin | Obtain employee ID from department managment page,0.0,0.0,0,0,failed,1025
+Revoke leave request by Admin | Open calendar page,0.0,0.0,0,0,passed,1025
+Revoke leave request by Admin | Open department settings page,0.0,0.0,0,0,passed,1025
+Revoke leave request by Admin | Open requests page,0.0,0.0,0,0,passed,1025
+Revoke leave request by Admin | Open user editing page for Employee,0.0,0.0,0,0,passed,1025
+Revoke leave request | And make sure that it is calendar indeed,0.0,0.0,0,0,failed,1025
+Revoke leave request | Approve newly added leave request,0.0,0.0,0,0,failed,1025
+Revoke leave request | Approve revoke request,0.0,0.0,0,0,failed,1025
+Revoke leave request | Check that all days are marked as pended,0.0,0.0,0,0,failed,1025
+Revoke leave request | Create EMPLOYEE-to-be user,646.4093130517226,452.0,1,82,failed,1025
+Revoke leave request | Create MANAGER_A-to-be user,646.4093130517226,452.0,1,82,failed,1025
+Revoke leave request | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Revoke leave request | Login as ADMIN user,1518.063680283221,0.0,2,28,passed,1025
+Revoke leave request | Login as EMPLOYEE user,1518.063680283221,0.0,2,15,failed,1025
+Revoke leave request | Login as MANAGER_A user,1518.063680283221,0.0,2,15,failed,1025
+Revoke leave request | Login as MANAGER_B user,1518.063680283221,0.0,2,15,failed,1025
+Revoke leave request | Logout from EMPLOYEE account,0.0,0.0,0,0,failed,1025
+Revoke leave request | Logout from MANAGER_A account,0.0,0.0,0,0,failed,1025
+Revoke leave request | Logout from admin account,1043.7671912525857,0.0,2,0,passed,1025
+Revoke leave request | Make sure newly revoked request is shown for approval,0.0,0.0,0,0,failed,1025
+Revoke leave request | Make sure that newly created request is waiting for approval,0.0,0.0,0,0,failed,1025
+Revoke leave request | Open calendar page,0.0,0.0,0,0,passed,1025
+Revoke leave request | Open department management page,0.0,0.0,0,0,passed,1025
+Revoke leave request | Open requests page,0.0,0.0,0,0,passed,1025
+Revoke leave request | Request new leave,0.0,0.0,0,0,failed,1025
+Revoke leave request | Revoke request,0.0,0.0,0,0,failed,1025
+Revoke leave request | Update department to be supervised by MANAGER_A,0.0,0.0,0,0,failed,1025
+Revoke leave request | Update department to be supervised by MANAGER_B,0.0,0.0,0,0,failed,1025
+"Start date is in current year, end date is in current year either | adjustment is made based on start and end dates",0.0,0.0,0,0,passed,1025
+"Start date is in current year, end date is in next year | adjustment is made based on start date",0.0,0.0,0,0,passed,1025
+"Start date is in current year, no end date | adjustment is made based on start date",0.0,0.0,0,0,passed,1025
+"Start date is in next year, end date is defined | No adjustment is needed",0.0,0.0,0,0,passed,1025
+"Start date is in next year, no end date | No adjustment is needed",0.0,0.0,0,0,passed,1025
+"Started in Apr, today is Jul | Check accrued_adjustment",0.0,0.0,0,0,passed,1025
+"Started in Apr, today is Jul | Ensure year total alloance is correct",0.0,0.0,0,0,passed,1025
+"Started in Apr, today is Jul: carry over is ignored in accrual adjustment | Check accrued_adjustment",0.0,0.0,0,0,passed,1025
+"Started in Apr, today is Jul: carry over is ignored in accrual adjustment | Ensure year total alloance is correct",0.0,0.0,0,0,passed,1025
+"Started in Apr, today is Jul: manual adjustments is taked into consideration | Check accrued_adjustment",0.0,0.0,0,0,passed,1025
+"Started in Apr, today is Jul: manual adjustments is taked into consideration | Ensure year total alloance is correct",0.0,0.0,0,0,passed,1025
+"Started last year, today is 1 of January | Check accrued_adjustment",0.0,0.0,0,0,passed,1025
+"Started last year, today is 1 of January | Ensure year total allowance is correct",0.0,0.0,0,0,passed,1025
+"Started last year, today is 14th of January | Check accrued_adjustment",0.0,0.0,0,0,passed,1025
+"Started last year, today is 14th of January | Ensure year total allowance is correct",0.0,0.0,0,0,passed,1025
+"Started last year, today is 15th of December | Check accrued_adjustment",0.0,0.0,0,0,passed,1025
+"Started last year, today is 15th of December | Ensure year total allowance is correct",0.0,0.0,0,0,passed,1025
+"Started last year, today is 31th of December | Check accrued_adjustment",0.0,0.0,0,0,passed,1025
+"Started last year, today is 31th of December | Ensure year total allowance is correct",0.0,0.0,0,0,passed,1025
+"Started this year, calculate available allowance for current year | Ensure available allowance is correct",0.0,0.0,0,0,passed,1025
+"Started this year, calculate available allowance for previous year | Ensure available allowance is correct",0.0,0.0,0,0,passed,1025
+System prevent revoking admin rights from very last admin within company | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+System prevent revoking admin rights from very last admin within company | Create second user,646.4093130517226,452.0,1,82,failed,1025
+System prevent revoking admin rights from very last admin within company | Ensure that Admin tickbox is checked,0.0,0.0,0,0,failed,1025
+System prevent revoking admin rights from very last admin within company | Ensure that Admin tickbox is not checked,0.0,0.0,0,0,failed,1025
+System prevent revoking admin rights from very last admin within company | Ensure that secondary user bacame admin,0.0,0.0,0,0,failed,1025
+System prevent revoking admin rights from very last admin within company | Make secondary user to be admin,1124.0775000622868,629.0,2,0,failed,1025
+System prevent revoking admin rights from very last admin within company | Open Admin user edit details page,0.0,0.0,0,0,passed,1025
+System prevent revoking admin rights from very last admin within company | Open detail page for second employee,0.0,0.0,0,0,failed,1025
+System prevent revoking admin rights from very last admin within company | Revoke admin rights from secondary user,1124.0775000622868,629.0,2,0,failed,1025
+System prevent revoking admin rights from very last admin within company | Try to untick the Is Admin flag and make sure system prevent from doing it,1302.1604836044287,629.0,2,0,failed,1025
+Try to access admin pages with non-admin user | Add new non-admin user,646.4093130517226,452.0,1,82,failed,1025
+Try to access admin pages with non-admin user | And login with newly created non-admin account,1518.063680283221,0.0,2,15,failed,1025
+Try to access admin pages with non-admin user | Iterate throough pathes and make sure they are not reachable,0.0,0.0,0,0,failed,1025
+Try to access admin pages with non-admin user | Iterate through admin pages and make sure they are accessible,0.0,0.0,0,0,passed,1025
+Try to access admin pages with non-admin user | Logout from admin account,1043.7671912525857,0.0,2,0,passed,1025
+Try to access admin pages with non-admin user | Register new admin user,2495.2942593076914,108.0,4,93,passed,1025
+Try to access private pages with guest user | Check main (dashboard) page,0.0,0.0,0,0,passed,1025
+Try to access private pages with guest user | Check pages,0.0,0.0,0,0,passed,1025
+Try to book more holidays then in allowance | And make sure that it is calendar indeed,0.0,0.0,0,0,failed,1025
+Try to book more holidays then in allowance | Check that correct warning messages are shown,0.0,0.0,0,0,failed,1025
+Try to book more holidays then in allowance | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Try to book more holidays then in allowance | Create new non-admin user,646.4093130517226,452.0,1,82,failed,1025
+Try to book more holidays then in allowance | Login as non-admin user,1518.063680283221,0.0,2,15,failed,1025
+Try to book more holidays then in allowance | Logout from admin account,1043.7671912525857,0.0,2,0,passed,1025
+Try to book more holidays then in allowance | Open calendar page,0.0,0.0,0,0,passed,1025
+Try to book more holidays then in allowance | Request new leave,0.0,0.0,0,0,failed,1025
+Try to manage Bank holidays with non-default date format | Add Add Labour day,0.0,0.0,0,0,failed,1025
+Try to manage Bank holidays with non-default date format | Add New year,0.0,0.0,0,0,failed,1025
+Try to manage Bank holidays with non-default date format | Add Second day of New year,0.0,0.0,0,0,failed,1025
+Try to manage Bank holidays with non-default date format | And make sure that no bank holidays are shown,0.0,0.0,0,0,failed,1025
+Try to manage Bank holidays with non-default date format | Open page with bank holidays,0.0,0.0,0,0,failed,1025
+Try to manage Bank holidays with non-default date format | Register new company and ensure it has non-default date format,2715.4873563838714,108.0,5,93,failed,1025
+Try to manage Bank holidays with non-default date format | Remove default predefined bank holidays,0.0,0.0,0,0,failed,1025
+Try to manage Bank holidays with non-default date format | Rename Christmas to have proper name,0.0,0.0,0,0,failed,1025
+Try to open registeration page with active user in a session | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Try to open registeration page with active user in a session | Make sure that user is landed on calendar page,0.0,0.0,0,0,passed,1025
+Try to open registeration page with active user in a session | Try to open Registration page,0.0,0.0,0,0,passed,1025
+Try to remove used leave type | Add new leave type,1640.304125182641,752.0,3,5,passed,1025
+Try to remove used leave type | Check that all days are marked as pended,0.0,0.0,0,0,failed,1025
+Try to remove used leave type | Create new company,2495.2942593076914,108.0,4,93,passed,1025
+Try to remove used leave type | Ensure user starts at the very beginning of current year,1091.3739047640822,629.0,1,10,failed,1025
+Try to remove used leave type | Open calendar page,0.0,0.0,0,0,passed,1025
+Try to remove used leave type | Open page with leave types,0.0,0.0,0,0,passed,1025
+Try to remove used leave type | Request new leave,3009.1997593499627,0.0,6,20,failed,1025
+Try to remove used leave type | Try to remove newly added leave type and ensure it fails,801.5890468313548,605.0,1,0,failed,1025
+Try to use DD/MM/YY and some missleading date | Open page with bank holidays,0.0,0.0,0,0,failed,1025
+Try to use DD/MM/YY and some missleading date | Register new company with default date to be DD/MM/YY,2715.4873563838714,108.0,5,93,failed,1025
+Try to use DD/MM/YY and some missleading date | Try to add new bank holiday with date that was reported to be problematic,0.0,0.0,0,0,failed,1025
+Try to use non defaul date formats for editing employee details | Open employee details page,0.0,0.0,0,0,failed,1025
+Try to use non defaul date formats for editing employee details | Open employee list page,0.0,0.0,0,0,failed,1025
+Try to use non defaul date formats for editing employee details | Register new company with default date to be DD/MM/YY,2715.4873563838714,108.0,5,93,failed,1025
+Try to use non defaul date formats for editing employee details | Update Start date to be date that was reportedly problematic,0.0,0.0,0,0,failed,1025
+Use problematic date with non default date format | Ensure user starts at the very beginning of current year,0.0,0.0,0,0,failed,1025
+Use problematic date with non default date format | Make sure it is possible to place an leave request for date that was reported to be problematic,0.0,0.0,0,0,failed,1025
+Use problematic date with non default date format | Open Book new leave pop up,0.0,0.0,0,0,failed,1025
+Use problematic date with non default date format | Open calendar page,0.0,0.0,0,0,failed,1025
+Use problematic date with non default date format | Register new company with default date to be DD/MM/YY,2715.4873563838714,108.0,5,93,failed,1025
+leave request half a day with existing booking of half a day | clash,0.0,0.0,0,0,passed,1025
+leave request half a day with existing booking of half a day | fit,0.0,0.0,0,0,passed,1025

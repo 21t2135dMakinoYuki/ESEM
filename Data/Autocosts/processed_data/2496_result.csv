@@ -1,0 +1,2 @@
+test_name,total_move_distance,total_scroll_distance,total_click_count,total_input_count,test_result,Commit Number
+validateFrontend,10547.476015434762,2925.0,23,67,pass,2496

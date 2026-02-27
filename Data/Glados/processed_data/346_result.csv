@@ -1,0 +1,6 @@
+test_name,total_move_distance,total_scroll_distance,total_click_count,total_input_count,test_result,Commit Number
+./001-events.js,4007.7241218667223,0.0,7,392,pass,346
+./002-topics.js,10502.225656612254,0.0,18,462,pass,346
+./003-structures.js,10066.78282069714,0.0,16,204,pass,346
+./004-reminders.js,6898.028575204217,0.0,10,130,failed,346
+./005-graphs.js,10713.039198784048,0.0,16,454,pass,346

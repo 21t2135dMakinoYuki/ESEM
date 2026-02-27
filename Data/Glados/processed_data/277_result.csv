@@ -1,0 +1,2 @@
+test_name,total_move_distance,total_scroll_distance,total_click_count,total_input_count,test_result,Commit Number
+demo.webdriver.js,0.0,0.0,0,22,failed,277

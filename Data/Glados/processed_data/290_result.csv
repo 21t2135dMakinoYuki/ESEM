@@ -1,0 +1,2 @@
+test_name,total_move_distance,total_scroll_distance,total_click_count,total_input_count,test_result,Commit Number
+Actions,1928.78775424172,0.0,4,235,failed,290

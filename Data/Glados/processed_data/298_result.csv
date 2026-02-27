@@ -1,0 +1,5 @@
+test_name,total_move_distance,total_scroll_distance,total_click_count,total_input_count,test_result,Commit Number
+001-events,2403.427174758252,0.0,3,280,pass,298
+002-topics,10603.605742134927,0.0,18,459,pass,298
+003-structures,10105.66006839845,0.0,16,204,pass,298
+004-reminders,8438.910174909788,0.0,12,135,pass,298

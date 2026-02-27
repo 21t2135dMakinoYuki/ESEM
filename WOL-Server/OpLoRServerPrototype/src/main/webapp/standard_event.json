@@ -1,0 +1,2571 @@
+[
+  {
+    "name": "abort",
+    "type": {
+      "name": "UIEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "abort",
+    "type": {
+      "name": "ProgressEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "PROGRESS",
+      "XML_HTTP_REQUEST"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "abort",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "INDEXED_DB"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "afterprint",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "animationend",
+    "type": {
+      "name": "AnimationEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "CSS_ANIMATIONS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "animationiteration",
+    "type": {
+      "name": "AnimationEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "CSS_ANIMATIONS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "animationstart",
+    "type": {
+      "name": "AnimationEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "CSS_ANIMATIONS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "appinsalled",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_APP_MANIFEST"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "audioprocess",
+    "type": {
+      "name": "AudioProcessingEvent",
+      "experimental": false,
+      "deprecated": true
+    },
+    "specification": [
+      "WEB_AUDIO_API"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "audioend",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_SPEECH_API"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "audiostart",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_SPEECH_API"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "beforeprint",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "beforeunload",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "beginEvent",
+    "type": {
+      "name": "TimeEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "SVG"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "blocked",
+    "type": {
+      "name": "IDBVersionChangeEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "INDEXED_DB"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "blur",
+    "type": {
+      "name": "FocusEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "boundary",
+    "type": {
+      "name": "SpeechSynthesisEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_SPEECH_API"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "cached",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "OFFLINE"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "canplay",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5_MEDIA"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "canplaythrough",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5_MEDIA"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "change",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L2",
+      "HTML5"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "chargingchange",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "BATTERY_STATUS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "chargingtimechange",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "BATTERY_STATUS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "checking",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "OFFLINE"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "click",
+    "type": {
+      "name": "MouseEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "close",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_SOCKET"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "complete",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "INDEXED_DB"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "complete",
+    "type": {
+      "name": "OfflineAudioCompletionEvent",
+      "experimental": false,
+      "deprecated": true
+    },
+    "specification": [
+      "WEB_AUDIO_API"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "compsitionend",
+    "type": {
+      "name": "CompositionEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "compsitionstart",
+    "type": {
+      "name": "CompositionEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "compsitionupdate",
+    "type": {
+      "name": "CompositionEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "contextmenu",
+    "type": {
+      "name": "MouseEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "copy",
+    "type": {
+      "name": "ClipboardEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "CLIPBOARD"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "cut",
+    "type": {
+      "name": "ClipboardEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "CLIPBOARD"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "dbclick",
+    "type": {
+      "name": "MouseEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "devicechange",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "MEDIA_CAPTURE_AND_STREAMS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "devicelight",
+    "type": {
+      "name": "DeviceLightEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "AMBIENT_LIGHT_EVENTS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "devicemotion",
+    "type": {
+      "name": "DeviceMotionEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "DEVICE_ORIENTATION_EVENTS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "deviceorientation",
+    "type": {
+      "name": "DeviceOrientationEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "DEVICE_ORIENTATION_EVENTS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "deviceproximity",
+    "type": {
+      "name": "DeviceProximityEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "PROXIMITY_EVENTS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "DOMActivate",
+    "type": {
+      "name": "UIEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": true
+  },
+  {
+    "name": "DOMAttributeNameChanged",
+    "type": {
+      "name": "MutationNameEvent",
+      "experimental": false,
+      "deprecated": true
+    },
+    "specification": [],
+    "experimental": false,
+    "deprecated": true
+  },
+  {
+    "name": "DOMAttrModified",
+    "type": {
+      "name": "MutationEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": true
+  },
+  {
+    "name": "DOMCharacterDataModified",
+    "type": {
+      "name": "MutationNameEvent",
+      "experimental": false,
+      "deprecated": true
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": true
+  },
+  {
+    "name": "DOMContentLoaded",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "DOMElementNameChanged",
+    "type": {
+      "name": "MutationNameEvent",
+      "experimental": false,
+      "deprecated": true
+    },
+    "specification": [],
+    "experimental": false,
+    "deprecated": true
+  },
+  {
+    "name": "DOMFocusIn",
+    "type": {
+      "name": "FocusEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": true
+  },
+  {
+    "name": "DOMFocusOut",
+    "type": {
+      "name": "FocusEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": true
+  },
+  {
+    "name": "DOMNodeInserted",
+    "type": {
+      "name": "MutationEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": true
+  },
+  {
+    "name": "DOMNodeInsertedIntoDocument",
+    "type": {
+      "name": "MutationEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": true
+  },
+  {
+    "name": "DOMNodeRemoved",
+    "type": {
+      "name": "MutationEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": true
+  },
+  {
+    "name": "DOMNodeRemovedFromDocument",
+    "type": {
+      "name": "MutationEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": true
+  },
+  {
+    "name": "DOMSubtreeModified",
+    "type": {
+      "name": "MutationEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": true
+  },
+  {
+    "name": "downloading",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "OFFLINE"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "drag",
+    "type": {
+      "name": "DragEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "dragend",
+    "type": {
+      "name": "DragEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "dragenter",
+    "type": {
+      "name": "DragEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "dragleave",
+    "type": {
+      "name": "DragEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "dragover",
+    "type": {
+      "name": "DragEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "dragstart",
+    "type": {
+      "name": "DragEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "drop",
+    "type": {
+      "name": "DragEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "durationchange",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5_MEDIA"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "emptied",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5_MEDIA"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "end",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_SPEECH_API"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "end",
+    "type": {
+      "name": "SpeechSynthesisEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_SPEECH_API"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "ended",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5_MEDIA"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "ended",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_AUDIO_API"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "endEvent",
+    "type": {
+      "name": "TimeEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "SVG"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "error",
+    "type": {
+      "name": "UIEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "error",
+    "type": {
+      "name": "ProgressEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "PROGRESS",
+      "XML_HTTP_REQUEST"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "error",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "OFFLINE"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "error",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_SOCKET"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "error",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "SERVER_SENT_EVENTS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "error",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "INDEXED_DB"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "error",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_SPEECH_API"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "error",
+    "type": {
+      "name": "SpeechSynthesisEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_SPEECH_API"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "focus",
+    "type": {
+      "name": "FocusEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "focusin",
+    "type": {
+      "name": "FocusEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "focusout",
+    "type": {
+      "name": "FocusEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "fullscreenchange",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "FULL_SCREEN"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "fullscreenerror",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "FULL_SCREEN"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "gamepadconnected",
+    "type": {
+      "name": "GamepadEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "GAMEPAD"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "gamepaddisconnected",
+    "type": {
+      "name": "GamepadEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "GAMEPAD"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "gotpointercapture",
+    "type": {
+      "name": "PointerEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "POINTER_EVENTS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "hashchange",
+    "type": {
+      "name": "HashChangeEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "lostpointercapture",
+    "type": {
+      "name": "PointerEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "POINTER_EVENTS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "input",
+    "type": {
+      "name": "InputEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3",
+      "HTML5"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "invalid",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "keydown",
+    "type": {
+      "name": "KeyboardEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "keypress",
+    "type": {
+      "name": "KeyboardEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "keyup",
+    "type": {
+      "name": "KeyboardEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "languagechange",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5_1"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "levelchange",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "BATTERY_STATUS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "load",
+    "type": {
+      "name": "UIEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "load",
+    "type": {
+      "name": "ProgressEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "PROGRESS",
+      "XML_HTTP_REQUEST"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "loadeddata",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5_MEDIA"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "loadedmetadata",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5_MEDIA"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "loadend",
+    "type": {
+      "name": "ProgressEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "PROGRESS",
+      "XML_HTTP_REQUEST"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "loadstart",
+    "type": {
+      "name": "ProgressEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "PROGRESS",
+      "XML_HTTP_REQUEST"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "mark",
+    "type": {
+      "name": "SpeechSynthesisEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_SPEECH_API"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "message",
+    "type": {
+      "name": "MessageEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_SOCKET"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "message",
+    "type": {
+      "name": "MessageEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_WORKERS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "message",
+    "type": {
+      "name": "MessageEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_MESSAGING"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "message",
+    "type": {
+      "name": "MessageEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "SERVER_SENT_EVENTS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "messageerror",
+    "type": {
+      "name": "MessageEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_WORKERS",
+      "BROADCAST_CHANNEL"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "message",
+    "type": {
+      "name": "ServiceWorkerMessageEvent",
+      "experimental": false,
+      "deprecated": true
+    },
+    "specification": [
+      "SERVICE_WORKERS"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "message",
+    "type": {
+      "name": "ExtendableMessageEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "SERVICE_WORKERS"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "mousedown",
+    "type": {
+      "name": "MouseEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "mouseenter",
+    "type": {
+      "name": "MouseEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "mouseleave",
+    "type": {
+      "name": "MouseEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "mousemove",
+    "type": {
+      "name": "MouseEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "mouseout",
+    "type": {
+      "name": "MouseEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "mouseover",
+    "type": {
+      "name": "MouseEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "mouseup",
+    "type": {
+      "name": "MouseEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "nomatch",
+    "type": {
+      "name": "SpeechRecognitionEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_SPEECH_API"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "notificationclick",
+    "type": {
+      "name": "NotificationEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "NOTIFICATIONS_API"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "noupdate",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "OFFLINE"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "obsolete",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "OFFLINE"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "offline",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5_OFFLINE"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "online",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5_OFFLINE"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "open",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_SOCKET"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "open",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "SERVER_SENT_EVENTS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "orientationchange",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "SCREEN_ORIENTATION"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "pagehide",
+    "type": {
+      "name": "PageTransitionEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "pageshow",
+    "type": {
+      "name": "PageTransitionEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "paste",
+    "type": {
+      "name": "ClipboardEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "CLIPBOARD"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "pause",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5_MEDIA"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "pause",
+    "type": {
+      "name": "SpeechSynthesisEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_SPEECH_API"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "pointercancel",
+    "type": {
+      "name": "PointerEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "POINTER_EVENTS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "pointerdown",
+    "type": {
+      "name": "PointerEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "POINTER_EVENTS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "pointerenter",
+    "type": {
+      "name": "PointerEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "POINTER_EVENTS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "pointerleave",
+    "type": {
+      "name": "PointerEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "POINTER_EVENTS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "pointerlockchange",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "POINTER_LOCK"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "pointerlockerror",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "POINTER_LOCK"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "pointermove",
+    "type": {
+      "name": "PointerEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "POINTER_EVENTS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "pointerout",
+    "type": {
+      "name": "PointerEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "POINTER_EVENTS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "pointerover",
+    "type": {
+      "name": "PointerEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "POINTER_EVENTS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "pointerup",
+    "type": {
+      "name": "PointerEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "POINTER_EVENTS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "play",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5_MEDIA"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "playing",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5_MEDIA"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "popstate",
+    "type": {
+      "name": "PopStateEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "progress",
+    "type": {
+      "name": "ProgressEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "PROGRESS",
+      "XML_HTTP_REQUEST"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "progress",
+    "type": {
+      "name": "ProgressEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "OFFLINE"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "push",
+    "type": {
+      "name": "PushEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "PUSH_API"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "pushsubscriptionchange",
+    "type": {
+      "name": "PushEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "PUSH_API"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "ratechange",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5_MEDIA"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "readystatechange",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5",
+      "XML_HTTP_REQUEST"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "repeatEvent",
+    "type": {
+      "name": "TimeEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "SVG"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "reset",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L2",
+      "HTML5"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "resize",
+    "type": {
+      "name": "UIEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "resourcetimingbufferfull",
+    "type": {
+      "name": "Performance",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "RESOURCE_TIMING"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "result",
+    "type": {
+      "name": "SpeechRecognitionEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_SPEECH_API"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "resume",
+    "type": {
+      "name": "SpeechSynthesisEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_SPEECH_API"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "scroll",
+    "type": {
+      "name": "UIEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "seeked",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5_MEDIA"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "seeking",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5_MEDIA"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "select",
+    "type": {
+      "name": "UIEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "selectstart",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "SELECTION_API"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "selectionchange",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "SELECTION_API"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "show",
+    "type": {
+      "name": "MouseEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "soundend",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_SPEECH_API"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "soundstart",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_SPEECH_API"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "speechend",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_SPEECH_API"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "speechstart",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_SPEECH_API"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "stalled",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5_MEDIA"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "start",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_SPEECH_API"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "start",
+    "type": {
+      "name": "SpeechSynthesisEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_SPEECH_API"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "storage",
+    "type": {
+      "name": "StorageEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_STORAGE"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "submit",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L2",
+      "HTML5"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "success",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "INDEXED_DB"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "suspend",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5_MEDIA"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "SVGAbort",
+    "type": {
+      "name": "SVGEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "SVG"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "SVGError",
+    "type": {
+      "name": "SVGEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "SVG"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "SVGLoad",
+    "type": {
+      "name": "SVGEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "SVG"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "SVGResize",
+    "type": {
+      "name": "SVGEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "SVG"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "SVGScroll",
+    "type": {
+      "name": "SVGEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "SVG"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "SVGUnload",
+    "type": {
+      "name": "SVGEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "SVG"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "SVGZoom",
+    "type": {
+      "name": "SVGZoomEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "SVG"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "SVGAbort",
+    "type": {
+      "name": "SVGEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "SVG"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "SVGAbort",
+    "type": {
+      "name": "SVGEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "SVG"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "timeout",
+    "type": {
+      "name": "ProgressEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "XML_HTTP_REQUEST"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "timeupdate",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5_MEDIA"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "touchcancel",
+    "type": {
+      "name": "TouchEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "TOUCH_EVENTS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "touchend",
+    "type": {
+      "name": "TouchEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "TOUCH_EVENTS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "touchmove",
+    "type": {
+      "name": "TouchEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "TOUCH_EVENTS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "touchstart",
+    "type": {
+      "name": "TouchEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "TOUCH_EVENTS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "transitionend",
+    "type": {
+      "name": "TransitionEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "CSS_TRANSITIONS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "unload",
+    "type": {
+      "name": "UIEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "updateready",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "OFFLINE"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "upgradeneeded",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "INDEXED_DB"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "userproximity",
+    "type": {
+      "name": "UserProximityEvent",
+      "experimental": true,
+      "deprecated": false
+    },
+    "specification": [
+      "PROXIMITY_EVENTS"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "voiceschanged",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "WEB_SPEECH_API"
+    ],
+    "experimental": true,
+    "deprecated": false
+  },
+  {
+    "name": "versionchange",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "INDEXED_DB"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "visibilitychange",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "PAGE_VISIBILITY"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "volumechange",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5_MEDIA"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "waiting",
+    "type": {
+      "name": "Event",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "HTML5_MEDIA"
+    ],
+    "experimental": false,
+    "deprecated": false
+  },
+  {
+    "name": "wheel",
+    "type": {
+      "name": "WheelEvent",
+      "experimental": false,
+      "deprecated": false
+    },
+    "specification": [
+      "DOM_L3"
+    ],
+    "experimental": false,
+    "deprecated": false
+  }
+]

@@ -1,0 +1,2 @@
+test_name,total_move_distance,total_scroll_distance,total_click_count,total_input_count,test_result,Commit Number
+003-structures,2439.4394154988804,0.0,5,57,failed,292
