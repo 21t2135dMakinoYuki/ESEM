@@ -1,5 +1,5 @@
 ### Dataset Columns (Data Dictionary)
-Each row in the Data/<REPOSITORY_NAME>/<REPOSITORY_NAME>.xlsx file
+Each row in the Data/`<REPOSITORY_NAME>/<REPOSITORY_NAME>`.xlsx file
 
 - `test_name`: Name of the UI test.
 - `effort`: Calculated physical interaction effort (p-effort).
@@ -30,4 +30,4 @@ The file `Data/<REPOSITORY_NAME>/out_of_scope.xlsx` contains data points exclude
 - `tool's_failure`: Flag (1/0) indicating cases where no evidence of UI modification could be found despite a measured change in effort. This represents a limitation of the analysis (e.g., the cause was undetectable through the current tool's tracking of UI components).
 
 ### Accuracy Data
-The file `Data/accuracy.xlsx` contains scenarios, their corresponding test names, and the results regarding accuracy.
+The file `Data/effectiveness.xlsx` contains testcase, their corresponding test names, and the results regarding accuracy.
