@@ -29,5 +29,13 @@ The file `Data/<REPOSITORY_NAME>/out_of_scope.xlsx` contains data points exclude
 - `carry-over_effects`: Flag (`1`/`0`) indicating the test result was affected by previous test executions (e.g., state not being properly reset), making the effort measurement unreliable.
 - `tool's_failure`: Flag (1/0) indicating cases where no evidence of UI modification could be found despite a measured change in effort. This represents a limitation of the analysis (e.g., the cause was undetectable through the current tool's tracking of UI components).
 
+### Analysis of Modified File Extensions
+The file `Data/<REPOSITORY_NAME>/extension_analysis.xlsx` contains a detailed breakdown of file modifications for commits where a change in \NamePEffort was observed. This data was used to identify the technical drivers of usability evolution.
+
+- `repository`: Name of the repository.
+- `sequence_number`: Sequential ID of the commit in the repository history.
+- `js, hbs, ...` : Each column represents a specific file extension. The value in each cell indicates the number of modified files with that extension in the corresponding commit.
+- `total_files` : The total number of files modified in the commit (sum of all extension columns).
+
 ### Accuracy Data
 The file `Data/effectiveness.xlsx` contains testcase, their corresponding test names, and the results regarding accuracy.
