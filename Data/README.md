@@ -4,7 +4,7 @@ Each row in the Data/`<REPOSITORY_NAME>/<REPOSITORY_NAME>`.xlsx file
 - `test_name`: Name of the UI test.
 - `effort`: Calculated physical interaction effort (p-effort).
 - `sequence_number`: Sequential ID of the commit in the repository history.
-- `dloc`: Delta Lines of Code (total changes in LOC).
+- `changed_lines`: The sum of added and deleted lines.
 - `lines_added`: Number of lines added in the commit.
 - `lines_deleted`: Number of lines deleted in the commit.
 - `effort_change_direction`: Indicates whether the effort increased or decreased compared to the previous commit.
