@@ -15,27 +15,11 @@ Each row in the Data/`<REPOSITORY_NAME>/<REPOSITORY_NAME>`.xlsx file
 - `is_in_scope`: Flag (`1`/`0`) indicating if the case was included in the final analysis.
 - `specific_change(xxx)_y`: Classification of changes based on our taxonomy. `xxx` refers to the element, and `y` represents the y-th category assigned to that element (unordered).
 - `code-changed_ui_element`: The UI element associated with the code change that influenced the target UI element's effort.
+- `only_indirect`: Flag (1/0) indicating whether the change in p-effort was caused only by an indirect effect. A value of 1 means the code-changed_ui_element and the target_ui_element do not have a direct parent-child relationship in the DOM tree, indicating the effort change was mediated by layout propagation from a structurally unrelated element.
 
 ## Note on Empty Cells:
 `specific_change(xxx)_y` columns indicate that **no specific changes were identified** for that element, or no direct relationship was found between the code change and the UI element. These cases are analyzed separately in our research results (e.g., cases where logic changes impacted effort without structural UI modifications).
 `code-changed_ui_element` column: An empty cell indicates that no specific UI element could be identified as the source of the impact on the target element's effort. This occurs when the change was driven by underlying logic or the results of other UI tests rather than a visible modification of UI components.
-
-### Out-of-Scope Data
-The file `Data/<REPOSITORY_NAME>/out_of_scope.xlsx` contains data points excluded from the final analysis. Each row represents a test-commit combination that was deemed unsuitable for p-effort quantification.
-
-- `test_name`: Name of the UI test.
-- `sequence_number`: Sequential ID of the commit in the repository history.
-- `UI_test_change`: Flag (`1`/`0`) indicating the test failed due to significant changes in the UI test script itself (e.g., changes in the test's logic or assertions).
-- `carry-over_effects`: Flag (`1`/`0`) indicating the test result was affected by previous test executions (e.g., state not being properly reset), making the effort measurement unreliable.
-- `tool's_failure`: Flag (1/0) indicating cases where no evidence of UI modification could be found despite a measured change in effort. This represents a limitation of the analysis (e.g., the cause was undetectable through the current tool's tracking of UI components).
-
-### Analysis of Modified File Extensions
-The file `Data/<REPOSITORY_NAME>/extension_analysis.xlsx` contains a detailed breakdown of file modifications for commits where a change in \NamePEffort was observed. This data was used to identify the technical drivers of usability evolution.
-
-- `repository`: Name of the repository.
-- `sequence_number`: Sequential ID of the commit in the repository history.
-- `js, hbs, ...` : Each column represents a specific file extension. The value in each cell indicates the number of modified files with that extension in the corresponding commit.
-- `total_files` : The total number of files modified in the commit (sum of all extension columns).
 
 ### Accuracy Data
 The file `Data/effectiveness.xlsx` contains testcase, their corresponding test names, and the results regarding accuracy.
