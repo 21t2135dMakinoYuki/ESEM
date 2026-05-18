@@ -23,3 +23,6 @@ Each row in the Data/`<REPOSITORY_NAME>/<REPOSITORY_NAME>`.xlsx file
 
 ### Accuracy Data
 The file `Data/effectiveness.xlsx` contains testcase, their corresponding test names, and the results regarding accuracy.
+
+### Calculation for RQs
+The script `Data/RQ_calculate.py` calculates the results for all Research Questions (RQs) presented in the paper, including statistical analysis and visualization.
